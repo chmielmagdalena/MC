@@ -44,7 +44,7 @@ To jest najmocniejszy darmowy czynnik. Wizytówka z 10 opiniami bije wizytówkę
 Zamiast jednej strony o wszystkim, zrób osobne podstrony pod konkretne pytania. Gotowy tekst pierwszej masz w `wizytowka-tresci.md`:
 
 1. `/zmiana-biura-rachunkowego` — „Zmiana biura rachunkowego w trakcie roku" ← zacznij od tej
-2. `/ksiegowosc-dla-fundacji` — NGO to Twoja przewaga, a konkurencja tu minimalna
+2. `/ksiegowosc-dla-fundacji` — NGO to Twoja przewaga, a konkurencja tu minimalna (gotowy tekst: `ksiegowosc-ngo-tresci.md`)
 3. `/ksiegowosc-online` — dla klientów spoza Wrocławia
 4. `/cennik` — ludzie szukają cen, a większość biur ich nie podaje; sama widełki dają przewagę
 
