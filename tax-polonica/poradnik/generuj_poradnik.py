@@ -713,6 +713,15 @@ story += [PageBreak(), P("NA KONIEC", "num"), P("Jeśli chcesz mieć to z głowy
             "od pierwszej faktury, pilnujemy budżetu w trakcie projektu, a nie po nim, i przygotowujemy część "
             "finansową sprawozdania. Obsługujemy też organizacje pożytku publicznego, działalność odpłatną "
             "i gospodarczą oraz kadry i płace w projektach.", "p"),
+          *box("Gdzie kończy się nasza rola", [
+              "Jesteśmy biurem rachunkowym, nie doradcą podatkowym i nie kancelarią. "
+              "<b>Nie wypełniamy za organizację wniosków ani rozliczeń w generatorach grantowych "
+              "i nie składamy sprawozdań w imieniu zarządu</b> — te obowiązki ciążą na organizacji.",
+              "Prowadzimy księgi, ujmujemy w nich dotacje tak, żeby dało się rozliczyć projekt, "
+              "przygotowujemy dane finansowe do sprawozdań i deklaracje. Deklaracje do urzędu skarbowego "
+              "i ZUS wysyłamy na podstawie udzielonego pełnomocnictwa. Przez resztę procesu możemy "
+              "przeprowadzić technicznie — krok po kroku.",
+          ], bg=TLO_UWAGA),
           *box("Co możemy zrobić od ręki", [
               "<b>Bezpłatny przegląd</b> — sprawdzimy, czy ewidencja projektów jest prowadzona poprawnie i czy "
               "nie płacicie za pełne księgi tam, gdzie wystarczy uproszczona ewidencja.",

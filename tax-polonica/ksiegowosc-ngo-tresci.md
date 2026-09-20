@@ -62,19 +62,19 @@ Co konkretnie prowadzimy dla organizacji
 - Pilnowanie terminów rozliczeń i informowanie o nich zawczasu.
 
 **Organizacje pożytku publicznego (OPP)**
-- Sprawozdanie merytoryczne i finansowe OPP oraz jego publikacja w bazie NIW.
+- Przygotowanie danych finansowych do sprawozdania OPP. Samo sprawozdanie składa zarząd — możemy przeprowadzić przez ten proces technicznie.
 - Rozliczanie i ewidencja środków z 1,5% podatku — łącznie z ich wyodrębnieniem i przeznaczeniem.
-- Przygotowanie do uzyskania statusu OPP i pilnowanie obowiązków, które się z nim wiążą.
+- Przypominanie o terminach sprawozdawczych wiążących się ze statusem OPP.
 
 **Działalność statutowa, odpłatna i gospodarcza**
 - Rozdzielenie trzech rodzajów działalności w księgach — najczęstszy punkt zapalny przy kontroli.
-- Odpowiedź na pytanie, w którym momencie odpłatna działalność statutowa staje się gospodarczą i co wtedy zrobić.
-- Wsparcie przy uruchamianiu działalności gospodarczej: wpis do rejestru przedsiębiorców, ewidencja, VAT.
+- Sygnalizowanie, gdy z zapisów w księgach wynika, że granica między działalnością odpłatną a gospodarczą może być przekroczona — decyzję i jej ocenę prawną podejmuje zarząd.
+- Ułożenie ewidencji księgowej i rozliczeń VAT po uruchomieniu działalności gospodarczej przez organizację.
 
 **Sprawozdawczość i podatki**
-- Roczne sprawozdanie finansowe wraz z informacją dodatkową, w formie elektronicznej, z podpisami zarządu.
+- Przygotowanie rocznego sprawozdania finansowego wraz z informacją dodatkową. Podpisuje je i składa zarząd — ten obowiązek ciąży na nim, nie na biurze.
 - Dobór właściwego wzoru sprawozdania: dla organizacji pozarządowych, dla jednostek mikro albo małych — zależnie od tego, co jest dla Was korzystniejsze.
-- CIT-8 wraz z załącznikami i zwolnieniem dla celów statutowych.
+- CIT-8 wraz z załącznikami i zwolnieniem dla celów statutowych — wysyłamy na podstawie udzielonego pełnomocnictwa.
 - Ocena, czy kwalifikujecie się do uproszczonej ewidencji przychodów i kosztów — prostszej i tańszej niż pełne księgi (dotyczy organizacji bez działalności gospodarczej i o niewielkich przychodach).
 - VAT, gdy jest potrzebny — i sprawdzenie, czy przypadkiem nie musicie się rejestrować.
 
@@ -95,7 +95,7 @@ W NGO liczy się jeszcze jedno: kalendarz projektów. Datę przejęcia ustawiamy
 ```
 1. **Bezpłatna rozmowa.** Opowiadacie, czym zajmuje się organizacja, ile macie projektów i czy prowadzicie działalność odpłatną lub gospodarczą. Dostajecie cenę na piśmie.
 2. **Przegląd tego, co jest.** Sprawdzamy księgi za bieżący rok, ewidencję projektów i zaległości sprawozdawcze. Mówimy wprost, co wymaga naprawy — zanim cokolwiek zaczniemy.
-3. **Wypowiedzenie i odbiór dokumentów.** Dajemy wzór wypowiedzenia i listę tego, co musicie dostać: księgi, dokumenty źródłowe, ewidencje projektowe, dokumentację kadrową, potwierdzenia wysyłek deklaracji.
+3. **Wypowiedzenie i odbiór dokumentów.** Wypowiedzenie składa zarząd — to Wasza umowa. Od nas dostajecie listę tego, czego zażądać: księgi, dokumenty źródłowe, ewidencje projektowe, dokumentację kadrową, potwierdzenia wysyłek deklaracji.
 4. **Pełnomocnictwa i dostępy.** Pełnomocnictwo do e-deklaracji, ZUS PUE, e-Urząd Skarbowy, konta w generatorach grantowych.
 5. **Start.** Przejmujemy terminy — sprawozdawcze, podatkowe i projektowe.
 
@@ -164,16 +164,16 @@ Dodaj te usługi w Profilu Firmy (każdą osobno — Google traktuje je jak osob
 |---|---|
 | Księgowość dla fundacji | Pełna obsługa księgowa fundacji: dotacje, sprawozdania, CIT-8, działalność statutowa i gospodarcza. Wrocław i cała Polska online. |
 | Księgowość dla stowarzyszeń | Księgi stowarzyszeń rejestrowych i zwykłych, sprawozdawczość roczna, składki członkowskie, kadry. |
-| Rozliczanie dotacji i projektów | Wyodrębniona ewidencja projektowa, kontrola budżetu i kwalifikowalności, zestawienia dla grantodawcy, pilnowanie terminów rozliczeń. |
-| Obsługa OPP | Sprawozdanie merytoryczne i finansowe OPP, publikacja w bazie NIW, ewidencja środków z 1,5% podatku. |
-| Działalność odpłatna i gospodarcza NGO | Rozdzielenie działalności statutowej, odpłatnej i gospodarczej w księgach. Wsparcie przy uruchamianiu działalności gospodarczej. |
+| Ewidencja dotacji i projektów | Wyodrębniona ewidencja projektowa w księgach, kontrola budżetu, zestawienia kosztów dla grantodawcy, przypominanie o terminach rozliczeń. Wniosków i rozliczeń w generatorach nie wypełniamy za organizację. |
+| Obsługa księgowa OPP | Przygotowanie danych finansowych do sprawozdania OPP oraz ewidencja środków z 1,5% podatku. Sprawozdanie składa zarząd. |
+| Działalność odpłatna i gospodarcza NGO | Rozdzielenie działalności statutowej, odpłatnej i gospodarczej w księgach oraz ułożenie ewidencji po uruchomieniu działalności gospodarczej. |
 | Kadry i płace dla NGO | Umowy o pracę, zlecenia, dzieła i wolontariat. ZUS, PIT-11, wynagrodzenia dzielone między projekty. |
 
 **Dodatkowe pytania i odpowiedzi do wizytówki:**
 1. **Czy obsługujecie fundacje i stowarzyszenia?**
    Tak, to jedna z naszych specjalizacji. Prowadzimy księgi NGO, rozliczamy dotacje i projekty, obsługujemy organizacje pożytku publicznego oraz organizacje prowadzące działalność odpłatną i gospodarczą.
 2. **Czy pomagacie rozliczyć dotację?**
-   Tak. Prowadzimy wyodrębnioną ewidencję projektu od pierwszej faktury i przygotowujemy zestawienia pod wymagania konkretnego grantodawcy.
+   Prowadzimy wyodrębnioną ewidencję projektu od pierwszej faktury i przygotowujemy zestawienia kosztów pod wymagania konkretnego grantodawcy. Samego wniosku ani rozliczenia w generatorze nie wypełniamy za organizację — to zadanie zarządu, ale możemy przez nie przeprowadzić technicznie.
 3. **Czy przejmiecie organizację z zaległościami?**
    Tak. Zaczynamy od przeglądu i wyceny nadrobienia zaległości — dowiadujecie się, co jest do zrobienia, zanim podpiszemy umowę.
 

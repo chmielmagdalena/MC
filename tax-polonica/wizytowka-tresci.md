@@ -7,6 +7,11 @@ Dane firmy używane w tekstach:
 - e-mail: **kontakt@taxpolonica.pl**
 - obszar: **Wrocław + obsługa zdalna w całej Polsce**
 
+> **Granica zakresu:** jesteśmy biurem rachunkowym, nie doradcą podatkowym i nie kancelarią.
+> Teksty nie mogą obiecywać wypełniania druków za klienta, składania sprawozdań w imieniu zarządu
+> ani doradztwa. Deklaracje wysyłamy wyłącznie na podstawie pełnomocnictwa.
+> Pełne zasady: `tax-polonica/zakres-biura-rachunkowego.md`.
+
 > Uwaga: w miejscach oznaczonych `[…]` uzupełnij własne dane (telefon, adres, godziny, ceny).
 > Zanim opublikujesz, sprawdź zgodność obietnic z Twoją umową i cennikiem — teksty są propozycją marketingową, nie poradą prawną.
 
@@ -37,7 +42,7 @@ Tax Polonica to biuro rachunkowe z Wrocławia, które obsługuje klientów w ca�
 
 Prowadzimy KPiR, ryczałt, pełne księgi, VAT, JPK, kadry i płace oraz ZUS. Obsługujemy jednoosobowe działalności, spółki, fundacje i stowarzyszenia.
 
-Zmieniasz biuro rachunkowe? Nie musisz czekać do końca roku — księgowość przejmujemy w trakcie roku, w dowolnym miesiącu. Pomagamy odzyskać dokumenty od poprzedniego biura, przygotowujemy wypowiedzenie, przenosimy dane i pełnomocnictwa. Formalności bierzemy na siebie.
+Zmieniasz biuro rachunkowe? Nie musisz czekać do końca roku — księgi przejmujemy w dowolnym miesiącu. Podpowiadamy, czego zażądać od poprzedniego biura, przenosimy dane i ustalamy pełnomocnictwa, żeby móc wysyłać deklaracje.
 
 Pierwsza rozmowa i wycena są bezpłatne.
 
@@ -48,12 +53,12 @@ Więcej: www.taxpolonica.pl
 ### Usługi w wizytówce (dodaj każdą osobno — Google indeksuje je jako osobne frazy)
 | Nazwa usługi | Opis (do wklejenia) |
 |---|---|
-| Przejęcie księgowości od innego biura | Przejmujemy księgowość w trakcie roku — w dowolnym miesiącu. Odbieramy dokumenty, sprawdzamy zaległości, przenosimy dane i pełnomocnictwa. Formalności po naszej stronie. |
+| Przejęcie księgowości od innego biura | Przejmujemy księgi w trakcie roku — w dowolnym miesiącu. Sprawdzamy zaległości, przenosimy dane i ustalamy pełnomocnictwa do wysyłki deklaracji. |
 | Księgowość dla jednoosobowej działalności | KPiR, ryczałt, VAT, JPK, ZUS. Stała opieka księgowej i jasna cena bez niespodzianek. |
 | Księgowość dla spółek | Pełne księgi rachunkowe, sprawozdania finansowe, CIT, JPK CIT, e-sprawozdania do KRS. |
 | Księgowość dla fundacji i stowarzyszeń | Sprawozdawczość NGO, działalność statutowa i gospodarcza, załączniki 4–7. |
 | Kadry i płace | Umowy, listy płac, ZUS, PIT-11, e-akta pracownicze. |
-| Rozliczenia roczne PIT/CIT | Roczne zeznania dla firm i osób prywatnych, ulgi i korekty. |
+| Rozliczenia roczne PIT/CIT | Przygotowanie rocznych zeznań na podstawie prowadzonych ksiąg; wysyłka na podstawie pełnomocnictwa. |
 
 ### Sekcja „Pytania i odpowiedzi" (zadaj je sama z drugiego konta i odpowiedz — to legalne i bardzo poprawia widoczność)
 1. **Czy mogę zmienić biuro rachunkowe w trakcie roku?**
@@ -71,13 +76,13 @@ Więcej: www.taxpolonica.pl
 ```
 Nie musisz czekać do końca roku, żeby zmienić biuro rachunkowe.
 Księgowość przejmujemy w trakcie roku — w dowolnym miesiącu.
-Odbierzemy dokumenty od poprzedniego biura, sprawdzimy zaległości i przeniesiemy dane. Formalności bierzemy na siebie.
+Podpowiemy, czego zażądać od poprzedniego biura, sprawdzimy zaległości i przeniesiemy dane.
 Wrocław i cała Polska online. Wycena bezpłatna: kontakt@taxpolonica.pl
 ```
 **Post 2 — na obiekcję „to skomplikowane"**
 ```
 „Zmiana księgowej to pewnie masa papierów"? Po Twojej stronie są 3 rzeczy:
-1) wypowiedzenie umowy (przygotujemy wzór),
+1) wypowiedzenie dotychczasowej umowy (podpowiemy, na jaką datę),
 2) odbiór dokumentów za bieżący rok,
 3) podpisanie nowego pełnomocnictwa.
 Resztę robimy my. Napisz: kontakt@taxpolonica.pl
@@ -151,13 +156,13 @@ Im dłużej zwlekasz, tym więcej miesięcy do sprawdzenia i odtworzenia. Każdy
 Przeniesienie księgowości — 5 kroków, w których nie zostajesz sam
 ```
 1. **Bezpłatna rozmowa (ok. 20 minut).** Mówisz, czym się zajmujesz i jak dziś wygląda Twoja księgowość. Dostajesz konkretną cenę — na piśmie.
-2. **Wypowiedzenie dotychczasowej umowy.** Dajemy gotowy wzór i podpowiadamy datę, żeby nie zostać bez obsługi ani jednego dnia.
+2. **Wypowiedzenie dotychczasowej umowy.** Podpowiadamy, na jaką datę je ustawić, żeby nie zostać bez obsługi ani jednego dnia. Samo wypowiedzenie składasz Ty — to Twoja umowa.
 3. **Odbiór dokumentów.** Ustalamy listę tego, co musisz dostać od poprzedniego biura: księgi i ewidencje za bieżący rok, ewidencje VAT i wysłane JPK, rejestry środków trwałych, dokumenty kadrowe i ZUS, potwierdzenia wysyłek deklaracji.
 4. **Przejęcie i sprawdzenie.** Wczytujemy dane, uzgadniamy salda, sprawdzamy, czy nie zostały zaległości i nierozliczone korekty. Jeśli coś jest nie tak — mówimy wprost i proponujemy naprawę.
-5. **Pełnomocnictwa i start.** Podpisujesz nowe pełnomocnictwo do e-deklaracji, ustawiamy dostępy (ZUS PUE, KSeF, e-Urząd Skarbowy) i przejmujemy bieżące terminy. Od tego momentu pilnujemy ich my.
+5. **Pełnomocnictwa i start.** Bez pełnomocnictwa nie wyślemy za Ciebie deklaracji, więc od niego zaczynamy: pełnomocnictwo do e-deklaracji oraz dostępy (ZUS PUE, KSeF, e-Urząd Skarbowy). Od tego momentu pilnujemy terminów księgowych i tych deklaracji, do których mamy upoważnienie.
 
 ```
-Twoja rola: jedna rozmowa, jeden podpis i przekazanie dokumentów. Resztę robimy my.
+Twoja rola: jedna rozmowa, wypowiedzenie dotychczasowej umowy, pełnomocnictwo i przekazanie dokumentów. Księgowość bierzemy na siebie.
 ```
 
 ### Sekcja: „Co dostajesz" (H2)
@@ -167,7 +172,7 @@ Czego możesz się po nas spodziewać
 - **Odbierany telefon i odpisany mail** — odpowiadamy w ciągu 24 godzin roboczych.
 - **Jedna, stała cena** — ustalona z góry, bez dopłat „za pytanie".
 - **Księgowa, która tłumaczy po ludzku** — dostajesz odpowiedź, a nie numer paragrafu.
-- **Pilnowanie terminów za Ciebie** — przypominamy zanim minie, nie po fakcie.
+- **Pilnowanie terminów za Ciebie** — przypominamy, zanim termin minie. Deklaracje wysyłamy na podstawie pełnomocnictwa.
 - **Pełna obsługa online** — dokumenty wysyłasz elektronicznie, skądkolwiek jesteś.
 - **Doświadczenie w trudniejszych tematach** — fundacje i stowarzyszenia, spółki, JPK CIT.
 
@@ -191,7 +196,7 @@ Tak. Nie ma przepisu, który każe czekać do stycznia. Trzeba jedynie dotrzyma�
 Od pierwszego dnia miesiąca, a najwygodniej od początku kwartału. Ustalamy datę tak, żeby żaden termin nie wypadł „pomiędzy" biurami.
 
 **Co, jeśli poprzednie biuro nie chce oddać dokumentów?**
-Dokumenty źródłowe są Twoją własnością i biuro ma obowiązek je zwrócić. Podpowiemy, jak sformułować wezwanie i co zrobić, gdy nie ma reakcji.
+Dokumenty źródłowe są własnością Twojej firmy. Podpowiemy, czego dokładnie zażądać i w jakiej formie, żeby dało się poprowadzić księgi dalej. Jeśli sprawa wymaga kroków prawnych — to zadanie dla prawnika, my zajmujemy się księgowością.
 
 **A jeśli w moich księgach jest bałagan albo zaległości?**
 To częstszy powód zmiany niż myślisz. Najpierw robimy przegląd i mówimy wprost, co wymaga naprawy — z wyceną, zanim cokolwiek zaczniemy.
