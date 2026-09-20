@@ -17,87 +17,128 @@ Dane firmy używane w tekstach:
 
 ---
 
-## 1. Wizytówka Google (Profil Firmy) — najważniejsze, bo darmowe
+## 1. Wizytówka Google (Profil Firmy) — status: istnieje i jest zweryfikowana
 
-### Nazwa firmy
-```
-Tax Polonica — biuro rachunkowe
-```
-(Nie dopisuj do nazwy słów kluczowych typu „Wrocław tanie księgowość" — Google zawiesza takie wizytówki. Miasto wynika z adresu.)
+Profil jest już przejęty („Zarządzasz tym profilem firmy"), z adresem, telefonem, godzinami
+i zdjęciami. Zostaje uzupełnienie treści i zbieranie opinii.
+
+**Dane firmy do wszystkich wpisów (wszędzie identycznie — rozbieżności psują widoczność lokalną):**
+- TAX POLONICA sp. z o.o.
+- ul. Kard. Stefana Wyszyńskiego 56 lok. 5, 50-331 Wrocław
+- tel. 789 643 335 · kontakt@taxpolonica.pl
+- taxpolonica.pl (**bez `www`** — tak samo jak kanoniczny adres strony)
+- NIP 897-17-69-606 · KRS 0000375508 · na rynku od 2010 roku
+
+### Nazwa firmy — zostaw jak jest
+Nie dopisuj słów kluczowych typu „Wrocław tania księgowość" — to najczęstszy powód zawieszenia
+wizytówki. Miasto i tak wynika z adresu.
 
 ### Kategoria główna
 ```
 Biuro rachunkowe
 ```
-### Kategorie dodatkowe (dodaj 2–4)
+### Kategorie dodatkowe (dodaj 2–3)
 ```
-Doradca podatkowy
 Usługi księgowe
 Biuro kadrowo-płacowe
 ```
+⚠️ **Nie dodawaj kategorii „Doradca podatkowy"** — nie jesteśmy doradcą podatkowym, a kategoria
+ustawia oczekiwania klientów na usługi, których nie świadczymy.
 
-### Opis firmy (do 750 znaków — wersja gotowa do wklejenia)
+### Opis firmy (do 750 znaków — gotowe do wklejenia)
 ```
-Tax Polonica to biuro rachunkowe z Wrocławia, które obsługuje klientów w całej Polsce — online, bez wizyt w biurze.
+Tax Polonica to biuro rachunkowe z Wrocławia, działające od 2010 roku. Obsługujemy klientów z całej Polski — także w pełni online, bez wizyt w biurze.
 
-Prowadzimy KPiR, ryczałt, pełne księgi, VAT, JPK, kadry i płace oraz ZUS. Obsługujemy jednoosobowe działalności, spółki, fundacje i stowarzyszenia.
+Prowadzimy księgę przychodów i rozchodów, ryczałt oraz pełne księgi rachunkowe. Rozliczamy VAT i pliki JPK, prowadzimy kadry, płace i ZUS, przygotowujemy sprawozdania finansowe. Obsługujemy jednoosobowe działalności, spółki, spółdzielnie mieszkaniowe, fundacje i stowarzyszenia.
 
-Zmieniasz biuro rachunkowe? Nie musisz czekać do końca roku — księgi przejmujemy w dowolnym miesiącu. Podpowiadamy, czego zażądać od poprzedniego biura, przenosimy dane i ustalamy pełnomocnictwa, żeby móc wysyłać deklaracje.
+Zmieniasz biuro rachunkowe? Księgi przejmujemy w trakcie roku, w dowolnym miesiącu — nie trzeba czekać do stycznia. Deklaracje do urzędu skarbowego i ZUS wysyłamy na podstawie udzielonego pełnomocnictwa.
 
 Pierwsza rozmowa i wycena są bezpłatne.
-
-Napisz: kontakt@taxpolonica.pl
-Więcej: www.taxpolonica.pl
+tel. 789 643 335
+kontakt@taxpolonica.pl
 ```
 
-### Usługi w wizytówce (dodaj każdą osobno — Google indeksuje je jako osobne frazy)
-| Nazwa usługi | Opis (do wklejenia) |
-|---|---|
-| Przejęcie księgowości od innego biura | Przejmujemy księgi w trakcie roku — w dowolnym miesiącu. Sprawdzamy zaległości, przenosimy dane i ustalamy pełnomocnictwa do wysyłki deklaracji. |
-| Księgowość dla jednoosobowej działalności | KPiR, ryczałt, VAT, JPK, ZUS. Stała opieka księgowej i jasna cena bez niespodzianek. |
-| Księgowość dla spółek | Pełne księgi rachunkowe, sprawozdania finansowe, CIT, JPK CIT, e-sprawozdania do KRS. |
-| Księgowość dla fundacji i stowarzyszeń | Sprawozdawczość NGO, działalność statutowa i gospodarcza, załączniki 4–7. |
-| Kadry i płace | Umowy, listy płac, ZUS, PIT-11, e-akta pracownicze. |
-| Rozliczenia roczne PIT/CIT | Przygotowanie rocznych zeznań na podstawie prowadzonych ksiąg; wysyłka na podstawie pełnomocnictwa. |
+### Usługi w wizytówce — dodaj każdą osobno
+Google traktuje nazwę każdej usługi jak osobną frazę, na którą możecie się pokazać.
+Przy usługach, które mają swoją podstronę, wstaw link — to podbija też widoczność strony.
 
-### Sekcja „Pytania i odpowiedzi" (zadaj je sama z drugiego konta i odpowiedz — to legalne i bardzo poprawia widoczność)
+| Nazwa usługi | Opis | Link |
+|---|---|---|
+| Księgowość dla jednoosobowej działalności | Księga przychodów i rozchodów, ryczałt, VAT, pliki JPK i ZUS. Stała opieka księgowej i jasna cena ustalona z góry. | /uslugi |
+| Księgowość dla spółek | Pełne księgi rachunkowe, CIT, JPK CIT, sprawozdania finansowe i e-sprawozdania do KRS. | /uslugi |
+| Przejęcie księgowości od innego biura | Przejmujemy księgi w dowolnym miesiącu — nie trzeba czekać do stycznia. Sprawdzamy zaległości, przenosimy dane i ustalamy pełnomocnictwa do wysyłki deklaracji. | /zmiana-biura-rachunkowego |
+| Księgowość dla fundacji i stowarzyszeń | Wyodrębniona ewidencja dotacji i projektów, sprawozdawczość organizacji pozarządowych, działalność odpłatna i gospodarcza. | /ksiegowosc-dla-fundacji |
+| Księgowość spółdzielni mieszkaniowych | Ewidencja kosztów eksploatacyjnych i funduszu remontowego, rozliczenia z członkami, raporty dla zarządu i rady nadzorczej. | /spoldzielnie-mieszkaniowe |
+| Kadry i płace | Umowy, listy płac, ZUS, PIT-11, dokumentacja pracownicza. Rozliczanie urlopów, zwolnień i nadgodzin. | /uslugi |
+| Start działalności | Pomoc techniczna przy drukach rejestracyjnych, dobór kodów PKD i wyliczenie podatku oraz ZUS przy każdej formie opodatkowania. Decyzję podejmujesz Ty. | /uslugi |
+
+### Sekcja „Pytania i odpowiedzi"
+Możesz zadać te pytania z prywatnego konta i odpowiedzieć z profilu firmy — to dozwolone
+i wyraźnie poprawia widoczność.
+
 1. **Czy mogę zmienić biuro rachunkowe w trakcie roku?**
-   Tak. Przepisy nie każą czekać do 31 grudnia — księgowość można przenieść w dowolnym miesiącu. Trzeba tylko zachować okres wypowiedzenia z umowy i zebrać dokumenty za bieżący rok. Pomagamy w obu krokach.
-2. **Ile trwa przeniesienie księgowości?**
-   Zwykle kilka dni roboczych od momentu, gdy dostaniemy dokumenty i dostępy. Najlepiej startować od 1. dnia miesiąca.
-3. **Czy obsługujecie firmy spoza Wrocławia?**
-   Tak, pracujemy zdalnie z klientami z całej Polski. Dokumenty przesyłasz elektronicznie.
+   Tak. Przepisy nie każą czekać do 31 grudnia — księgi można przekazać w dowolnym miesiącu.
+   Trzeba tylko zachować okres wypowiedzenia z dotychczasowej umowy i skompletować dokumentację
+   za bieżący rok. Najwygodniej zaczynać od pierwszego dnia miesiąca.
+2. **Czy obsługujecie firmy spoza Wrocławia?**
+   Tak, pracujemy zdalnie z klientami z całej Polski. Dokumenty przesyłacie elektronicznie.
+   Jeśli wolicie spotkanie osobiste — jesteśmy przy ul. Wyszyńskiego 56/5.
+3. **Czy składacie deklaracje za klienta?**
+   Tak, na podstawie udzielonego pełnomocnictwa — do urzędu skarbowego i do ZUS. Bez
+   pełnomocnictwa przygotowujemy dokument, a wysyła go klient.
 4. **Ile kosztuje obsługa?**
-   Cena zależy od formy działalności i liczby dokumentów. Wycena jest bezpłatna — napisz na kontakt@taxpolonica.pl.
+   Cena zależy od formy działalności, liczby dokumentów i liczby pracowników. Wycena jest
+   bezpłatna. Orientacyjne stawki są w cenniku na taxpolonica.pl.
+5. **Obsługujecie fundacje i stowarzyszenia?**
+   Tak, to jedna z naszych specjalizacji. Prowadzimy wyodrębnioną ewidencję dotacji i projektów.
+   Mamy też bezpłatny poradnik o rozliczaniu dotacji — do pobrania na taxpolonica.pl/poradniki.
 
-### 3 gotowe posty na wizytówkę (wrzucaj 1 co tydzień — posty podbijają pozycję)
+### Posty — wrzucaj jeden w tygodniu
+Posty podbijają pozycję wizytówki i pokazują, że firma żyje.
 
-**Post 1 — główny przekaz**
+**Post 1 — zmiana biura**
 ```
 Nie musisz czekać do końca roku, żeby zmienić biuro rachunkowe.
-Księgowość przejmujemy w trakcie roku — w dowolnym miesiącu.
-Podpowiemy, czego zażądać od poprzedniego biura, sprawdzimy zaległości i przeniesiemy dane.
-Wrocław i cała Polska online. Wycena bezpłatna: kontakt@taxpolonica.pl
+Księgi przejmujemy w dowolnym miesiącu. Sprawdzamy zaległości, przenosimy dane i ustalamy pełnomocnictwa, żeby móc wysyłać deklaracje.
+Wrocław i cała Polska online. Wycena bezpłatna.
+tel. 789 643 335
 ```
-**Post 2 — na obiekcję „to skomplikowane"**
+**Post 2 — poradnik dla NGO**
 ```
-„Zmiana księgowej to pewnie masa papierów"? Po Twojej stronie są 3 rzeczy:
-1) wypowiedzenie dotychczasowej umowy (podpowiemy, na jaką datę),
-2) odbiór dokumentów za bieżący rok,
-3) podpisanie nowego pełnomocnictwa.
-Resztę robimy my. Napisz: kontakt@taxpolonica.pl
+Prowadzisz fundację albo stowarzyszenie? Przygotowaliśmy bezpłatny poradnik „Jak rozliczyć dotację, żeby przeszła bez uwag" — 23 strony o wyodrębnionej ewidencji, opisywaniu dokumentów i kontroli, z checklistami.
+Do pobrania: taxpolonica.pl/poradniki
 ```
-**Post 3 — sygnały, że czas zmienić biuro**
+**Post 3 — start działalności**
 ```
-Czas zmienić biuro rachunkowe, jeśli:
-• nie odbierają telefonu, gdy masz kontrolę lub termin,
-• o zmianach w przepisach dowiadujesz się z internetu, nie od księgowej,
-• faktura co miesiąc inna niż umowa,
-• zapłaciłeś odsetki za czyjeś przeoczenie.
-Przejmujemy księgowość w trakcie roku. www.taxpolonica.pl
+Zakładasz firmę i nie wiesz, którą formę opodatkowania wybrać?
+Podaj spodziewane przychody, a policzymy podatek i ZUS przy każdej z nich. Dostaniesz porównanie w liczbach i sam zdecydujesz.
+Pomożemy też przejść przez druki rejestracyjne i dobrać kody PKD.
+tel. 789 643 335
 ```
 
----
+### Opinie — najważniejsze i wciąż nieodrobione
+Wizytówka z dziesięcioma opiniami bije wizytówkę z zerem, niezależnie od opisu.
+
+- W panelu wizytówki jest gotowy krótki link „Poproś o opinie" — wyślij go mailem lub SMS-em.
+- Wiadomość do klienta:
+  ```
+  Dzień dobry,
+  jeśli jest Pan/Pani zadowolony/a ze współpracy, będę bardzo wdzięczna za krótką opinię w Google —
+  dla biura rachunkowego to ogromna pomoc. Zajmuje minutę:
+  [link z panelu wizytówki]
+  Dziękuję!
+  ```
+- Odpowiadaj na każdą opinię, także krytyczną. Google liczy aktywność, a klienci czytają odpowiedzi.
+- ⚠️ Nie kupuj opinii i nie proś o fikcyjne — Google to wykrywa i kasuje całe wizytówki.
+
+### Do sprawdzenia w profilu
+- [ ] przycisk „Strona" prowadzi na **taxpolonica.pl** (bez `www`)
+- [ ] opis firmy uzupełniony powyższym tekstem
+- [ ] siedem usług dodanych, z linkami do podstron
+- [ ] pytania i odpowiedzi dodane
+- [ ] kategoria „Doradca podatkowy" **nie** jest ustawiona
+- [ ] godziny otwarcia aktualne
+- [ ] pierwsza prośba o opinie wysłana do obecnych klientów
 
 ## 2. Teksty na stronę www.taxpolonica.pl (podstrona „Zmiana biura rachunkowego")
 
