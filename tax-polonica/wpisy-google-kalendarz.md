@@ -2,8 +2,12 @@
 
 Dziesięć wpisów, po jednym na tydzień. Każdy gotowy do wklejenia.
 
-**Jak dodać:** wizytówka → **Dodaj wpis** → typ **„Nowość"** → wklej tekst → **dodaj zdjęcie**
-→ **dodaj przycisk** „Dowiedz się więcej" z podanym adresem → opublikuj.
+**Jak dodać:** wizytówka → **Dodaj wpis** → typ **„Aktualizacja"** → wklej tekst → **dodaj zdjęcie**
+→ włącz **„Zaplanuj publikację tego wpisu"** i ustaw datę → **dodaj przycisk** „Więcej informacji"
+z podanym adresem → opublikuj.
+
+**Google pozwala kolejkować wpisy z wyprzedzeniem**, dlatego planujemy je partiami po cztery,
+na cztery kolejne poniedziałki. Raz w miesiącu, zamiast co tydzień.
 
 **Zasady, które warto pamiętać:**
 - Pierwsze zdanie musi bronić się samo — Google pokazuje tylko początek, resztę chowa.
@@ -16,11 +20,11 @@ Dziesięć wpisów, po jednym na tydzień. Każdy gotowy do wklejenia.
 
 | Nr | Temat | Opublikowano |
 |---|---|---|
-| 1 | Zmiana biura w trakcie roku | ☐ |
-| 2 | Bezpłatny poradnik o rozliczaniu dotacji | ☐ |
-| 3 | Start działalności — policzymy każdą formę | ☐ |
-| 4 | Księgowość dla fundacji i stowarzyszeń | ☐ |
-| 5 | Sygnały, że czas zmienić biuro | ☐ |
+| 1 | Zmiana biura w trakcie roku | 21.09.2026 |
+| 2 | Bezpłatny poradnik o rozliczaniu dotacji | 28.09.2026 |
+| 3 | Start działalności — policzymy każdą formę | 05.10.2026 |
+| 4 | Księgowość dla fundacji i stowarzyszeń | 12.10.2026 |
+| 5 | Sygnały, że czas zmienić biuro | 19.10.2026 |
 | 6 | Spółdzielnie mieszkaniowe | ☐ |
 | 7 | Obsługa w pełni online | ☐ |
 | 8 | Za co odpowiada biuro, a za co klient | ☐ |
