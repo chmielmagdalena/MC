@@ -179,6 +179,11 @@ Dwie rzeczy do zapamiętania:
 Alternatywa bez brandingu Airtable: własny formularz na stronie → zapis przez Airtable API.
 Wtedy klucz API trzyma serwer/funkcja, nigdy kod strony.
 
+Gdyby zapisy miały kiedyś wyjść poza Airtable: repozytorium `africano-booking` ma
+gotowy wzorzec rezerwacji na Supabase (`reservations`, `reservation_requests`,
+`user_roles`, formularz klienta plus panel administratora). Ta sama struktura obsługuje
+zapisy na szkolenia po zmianie nazw encji.
+
 ---
 
 ## 5. Co z tego mierzysz
