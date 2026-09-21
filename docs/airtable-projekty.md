@@ -19,6 +19,8 @@ Szczegółowy schemat dla priorytetowego projektu (kursy) → [`airtable-kursy.m
 | `africano-booking` | rezerwacja stolików (Africano, Wrocław) | Lovable, React, Supabase | osobny projekt, przydatny wzorzec |
 
 Kursy nie mają jeszcze repozytorium — i nie potrzebują. To właśnie miejsce dla Airtable.
+BiuroPanel też nie ma repozytorium, bo decyzją z 21.09.2026 jest rozwinięciem
+`jpk-tag-finder`, a nie osobnym produktem.
 
 ---
 
@@ -52,38 +54,63 @@ zapisy na szkolenia po zmianie nazw encji.
 
 ---
 
-## 2. BiuroPanel — dziś to tabela `companies` w JPK Mapperze
+## 2. BiuroPanel — rozwinięcie JPK Mappera
 
-W repozytoriach nie ma osobnego projektu „BiuroPanel". To, co istnieje, to panel firm
-wewnątrz `jpk-tag-finder`: tabela `companies` (`name`, `nip`, `entity_type`,
-`entity_size`, `last_mapping_date`), RLS per użytkownik, `profiles.plan_type`
-z planem free/płatnym i obsługa subskrypcji przez Stripe (`create-checkout`,
-`customer-portal`, `check-subscription`).
+**Decyzja: BiuroPanel to rozwinięcie `jpk-tag-finder`**, a nie osobny produkt.
+Jeden Supabase, jedna subskrypcja, wspólna tabela `companies`.
 
-Czyli biuro rachunkowe ma tam dziś listę obsługiwanych firm i historię mapowań —
-ale nie ma obsługi **obowiązków i terminów**, a to jest sedno pracy biura.
+Co już pasuje: `companies` (nazwa, NIP, typ i wielkość podmiotu, data ostatniego
+mapowania), `profiles` z `plan_type` i `stripe_customer_id`, gotowa obsługa płatności
+(`create-checkout`, `customer-portal`, `check-subscription`) i RLS na każdej tabeli.
+Biuro rachunkowe, które już mapuje plany kont, dostaje kolejną zakładkę zamiast nowego
+loginu — to jest realna przewaga tej decyzji.
 
-**Tu pytanie, na które tylko Ty odpowiesz:** czy BiuroPanel to rozwinięcie panelu firm
-w JPK Mapperze (jeden produkt, jedna subskrypcja, wspólne `companies`), czy osobny
-produkt? Od tego zależy, czy projektujesz nowy schemat, czy dokładasz tabele do
-istniejącego Supabase.
+### Trzy rzeczy do rozstrzygnięcia, zanim dołożysz obowiązki i terminy
 
-Niezależnie od odpowiedzi — **poprowadź BiuroPanel 2–3 miesiące w Airtable, zanim
-napiszesz do niego kod.** Po kwartale masz działający proces i gotowy model danych;
-schemat tabel staje się specyfikacją. Masz już `companies` jako punkt wyjścia, więc
-w Airtable dokładasz to, czego tam brakuje:
+**1. Biuro to dziś jeden użytkownik, nie organizacja.** `companies.user_id` wskazuje na
+`auth.users`, a polityki RLS brzmią `auth.uid() = user_id`. Znaczy to, że lista firm
+należy do konta, nie do biura — dwie osoby w tym samym biurze nie zobaczą tych samych
+klientów. Przy mapowaniu planu kont to nie przeszkadza, bo praca jest jednorazowa.
+Przy BiuroPanelu przeszkadza zasadniczo: podział zadań między księgowe to sedno produktu.
 
-| Tabela | Zawartość |
+Potrzebne: `organizations` i `memberships` (rola: właściciel / księgowa / podgląd),
+`companies.organization_id` obok `user_id`, a polityki RLS przepisane z „to moje konto"
+na „należę do tej organizacji". To migracja, którą lepiej zrobić teraz, przy trzech
+tabelach, niż za rok przy piętnastu.
+
+**2. Zapisany plan kont nie jest przypięty do firmy.** `saved_plans` ma `user_id`
+i `entity_type`, ale nie ma `company_id` — mimo że `companies.last_mapping_date`
+sugeruje, że taka relacja istnieje. Dorzuć `saved_plans.company_id`; bez tego
+w BiuroPanelu nie pokażesz przy kliencie tego, co dla niego zmapowałaś.
+
+**3. Plany taryfowe.** Dziś `plan_type` rozróżnia free i płatny (99 zł). BiuroPanel to
+trzeci poziom — warto od razu ustalić, czy limituje go liczba obsługiwanych firm,
+liczba użytkowników w organizacji, czy jedno i drugie.
+
+### Rola Airtable: kwartał na walidację, potem migracja
+
+Nie projektuj tabel w Supabase od razu. **Poprowadź obsługę klientów 2–3 miesiące
+w Airtable** — na żywych sprawach, nie na wyobrażeniu o nich. Po kwartale wiesz, które
+pola są naprawdę używane, a które wymyśliłaś, i masz gotową specyfikację migracji:
+
+| Tabela w Airtable | Docelowo w Supabase |
 |---|---|
-| Klienci | to, co w `companies`, plus pakiet, cena, opiekun, status współpracy |
-| Obowiązki | JPK_V7, CIT-8, PIT, ZUS, sprawozdanie — cykl i termin ustawowy |
-| Zadania okresowe | klient × obowiązek × miesiąc; `dokumenty oczekiwane` → `otrzymane` → `zaksięgowane` → `wysłane` |
-| Dokumenty (metadane) | co wpłynęło, kiedy, od kogo — **bez plików** |
-| Pełnomocnictwa i dostępy | UPL-1, ZAW-FA, dostępy do e-US/PUE, daty ważności |
-| Onboarding | checklista wdrożenia nowego klienta |
+| Klienci (pakiet, cena, opiekun, status współpracy) | rozszerzenie istniejącej `companies` |
+| Obowiązki (JPK_V7, CIT-8, PIT, ZUS, sprawozdanie — cykl, termin ustawowy) | `obligations` — słownik, wspólny dla wszystkich |
+| Zadania okresowe (klient × obowiązek × miesiąc, status `dokumenty oczekiwane` → `otrzymane` → `zaksięgowane` → `wysłane`) | `periodic_tasks` + zadanie cykliczne generujące miesiąc |
+| Dokumenty — metadane (co wpłynęło, kiedy, od kogo) | `documents`, pliki w Storage |
+| Pełnomocnictwa i dostępy (UPL-1, ZAW-FA, e-US, PUE, daty ważności) | `authorizations` |
+| Onboarding klienta (checklista) | szablon zadań |
 
-Jedna automatyzacja robi największą różnicę: pierwszego dnia miesiąca wygeneruj komplet
-zadań okresowych dla wszystkich aktywnych klientów.
+Jedna automatyzacja w Airtable robi największą różnicę i od razu pokazuje, czy model
+jest dobry: pierwszego dnia miesiąca wygeneruj komplet zadań okresowych dla wszystkich
+aktywnych klientów. Jeśli po dwóch miesiącach generuje sensowną listę — schemat jest
+gotowy do przepisania na Postgresa.
+
+**Granica danych na czas pilotażu:** w Airtable statusy, terminy, nazwy firm i NIP-y.
+Dokumenty księgowe, kwoty i skany zostają w systemie księgowym. Po migracji do Supabase
+Airtable przestaje trzymać dane klientów w ogóle — zostaje przy pipelinie sprzedaży
+i backlogu, gdzie nie ma nic wrażliwego.
 
 ---
 
@@ -221,5 +248,6 @@ aktualne przed zakupem.
    To najcenniejszy zasób w całym zestawieniu i nie wymaga ani linijki kodu.
 3. **Rejestr leadów ze stron** — pół dnia, zamyka dziurę w `contact-form`.
 4. **Kalendarz treści** — pół dnia, przeniesienie istniejącego planu widoczności.
-5. **BiuroPanel** — po decyzji, czy to rozwinięcie JPK Mappera, czy osobny produkt.
-   Dwa dni na schemat, potem kwartał używania jako walidacja.
+5. **BiuroPanel** — dwa dni na schemat w Airtable, kwartał używania na żywych sprawach,
+   potem migracja do Supabase JPK Mappera. Migrację organizacji i członkostw (punkt 2.1)
+   zrób wcześniej, niezależnie od BiuroPanelu — im później, tym drożej.
