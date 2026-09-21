@@ -181,17 +181,16 @@ Pipeline wdrożeń (zarządca, liczba wspólnot i lokali, status `rozmowa` → `
 zgłoszenia, rejestr błędów z pilotażu. W tabelach pilotaży trzymasz **wyłącznie dane
 kontaktowe zarządcy** — nigdy danych mieszkańców.
 
-### Dwie rzeczy do naprawienia w kodzie, zanim WIS zobaczy kogokolwiek z zewnątrz
+### Zanim WIS zobaczy kogokolwiek z zewnątrz
 
-1. **Logowanie jest atrapą.** `src/App.tsx` sprawdza `admin` / `admin123` po stronie
-   przeglądarki, a żaden endpoint w `server.ts` nie ma autoryzacji — każdy, kto zna
-   adres, czyta i zapisuje dane wszystkich wspólnot.
-2. **Podwójny import w `src/App.tsx`** (`AlertCircle` i `Plus` importowane dwa razy
-   z `lucide-react`, linie 6–18 i 34) — to błąd kompilacji TypeScriptu. Nie udało mi się
-   uruchomić `tsc` w tej sesji, więc potwierdź lokalnie przez `npm run lint`.
+Prototyp ma dwie rzeczy do naprawienia w kodzie — jedną dotyczącą dostępu do danych,
+drugą blokującą kompilację. Szczegóły są opisane w zgłoszeniach w prywatnym
+repozytorium `SmartHousing-Manager`, bo to repozytorium (`MC`) jest publiczne.
 
-Oba punkty są normalne dla prototypu z AI Studio — ale oznaczają, że do WIS nie wolno
-dziś wprowadzić żadnych prawdziwych danych.
+Wniosek dla tego dokumentu: **do WIS nie wolno dziś wprowadzić żadnych prawdziwych
+danych wspólnoty.** Dopóki to się nie zmieni, wszystko, co w tym rozdziale opisano —
+katalog reguł, model domenowy, pilotaże — dotyczy danych syntetycznych i kontaktów
+do zarządców, nie mieszkańców.
 
 ---
 
