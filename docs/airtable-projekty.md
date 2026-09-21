@@ -67,20 +67,85 @@ z logowaniem klientów, to jest moment na Supabase/Postgres, a nie na wyższy pl
 
 ---
 
-## 3. WIS — do doprecyzowania
+## 3. WIS — program dla wspólnot i spółdzielni mieszkaniowych
 
-Zakres projektu nie jest opisany w repozytorium, więc poniższe to propozycja przy
-założeniu, że chodzi o **Wiążącą Informację Stawkową**. Do potwierdzenia przed wdrożeniem.
+WIS to produkt: zarządzanie wspólnotami i spółdzielniami wraz z ich księgowaniem.
+Odpowiedź jest tu inna niż przy pozostałych projektach — **Airtable nie może być bazą
+tego programu**. Nie z wygody, tylko przez trzy twarde bariery:
 
-| Tabela | Zawartość |
+- **Skala.** Jedna wspólnota stulokalowa to kilka tysięcy rekordów rocznie: naliczenia
+  zaliczek, wpłaty, odczyty liczników, rozrachunki, rozliczenie roczne mediów.
+  Kilkanaście wspólnot wyczerpuje limit planu Team w rok.
+- **Dane.** Właściciele lokali, salda, zaległości, windykacja — dane osobowe i finansowe
+  setek osób, które nie są Twoimi klientami, tylko klientami Twoich klientów.
+  To wymaga backendu z prawdziwym systemem uprawnień, nie bazy udostępnianej linkiem.
+- **Logika.** Naliczenie, korekta, rozliczenie roczne mediów to operacje transakcyjne.
+  Airtable nie ma transakcji — przerwana automatyzacja zostawia rozjechane salda,
+  a w księgowości zarządcy to koniec zaufania do programu.
+
+Backend tego produktu to Postgres/Supabase albo inna prawdziwa baza. Bez dyskusji.
+
+Airtable ma tu natomiast rolę **wokół produktu, a nie w produkcie** — i akurat w WIS
+jest ona najcenniejsza ze wszystkich opisanych w tym dokumencie.
+
+### a) Katalog reguł rozliczeniowych ⭐
+
+Serce takiego programu to klucze podziału kosztów — a one są inne dla każdej pozycji
+i każdej wspólnoty: udział w nieruchomości wspólnej, powierzchnia lokalu, liczba osób,
+wskazanie licznika, ryczałt, podział po równo.
+
+| Pole | Zawartość |
 |---|---|
-| Wnioski | klient, przedmiot (towar/usługa), proponowana klasyfikacja CN/PKWiU/PKOB, proponowana stawka, data złożenia, status w KIS, termin odpowiedzi |
-| Decyzje | sygnatura, data, kod CN, stawka, streszczenie uzasadnienia, link do pełnej treści |
-| Baza wiedzy | wyszukiwanie po kodzie CN i słowach kluczowych — własne repozytorium decyzji, także cudzych |
-| Korespondencja | wezwania do uzupełnienia, terminy odpowiedzi |
+| Pozycja kosztowa | woda zimna, woda ciepła, CO, odpady, sprzątanie, winda, domofon, ubezpieczenie, zarząd, fundusz remontowy |
+| Klucz podziału | `udział` / `powierzchnia` / `liczba osób` / `licznik` / `ryczałt` / `po równo` |
+| Podstawa | ustawa / uchwała wspólnoty / statut spółdzielni / umowa z dostawcą |
+| Dotyczy | wspólnota / spółdzielnia / obie |
+| Przypadki brzegowe | lokale użytkowe, garaże i komórki, pustostany, zmiana liczby osób w trakcie okresu, zmiana właściciela w trakcie roku, licznik zepsuty lub bez odczytu |
+| Sposób rozliczenia rocznego | nadpłata/niedopłata, przeksięgowanie, zwrot |
+| Zaimplementowane w WIS | checkbox + link do zgłoszenia |
 
-To akurat typ pracy, w którym Airtable sprawdza się bardzo dobrze: mało rekordów,
-dużo powiązań i wyszukiwania, krytyczne terminy.
+Ta jedna tabela robi trzy rzeczy naraz: jest specyfikacją dla programisty, listą
+przypadków testowych i ściągą przy rozmowie z zarządcą. Buduj ją od pierwszego dnia —
+to wiedza z 18 lat praktyki, której nie ma w dokumentacji żadnego konkurenta,
+a która decyduje o tym, czy program liczy poprawnie.
+
+### b) Model domenowy jako specyfikacja
+
+Ta sama strategia co przy BiuroPanelu: spisz encje jako tabele Airtable, **zanim**
+powstanie schemat prawdziwej bazy.
+
+Encje do rozpisania: `Wspólnota/Spółdzielnia`, `Nieruchomość`, `Lokal`, `Udziały`,
+`Właściciel/Członek`, `Liczniki`, `Odczyty`, `Stawki i zaliczki`, `Naliczenia`,
+`Wpłaty`, `Rozrachunki`, `Uchwały`, `Umowy z dostawcami`, `Zgłoszenia usterek`,
+`Fundusz remontowy`, `Sprawozdania`.
+
+Na danych syntetycznych (trzy wspólnoty, dwadzieścia lokali, jeden rok) sprawdzisz
+relacje i kompletność modelu w kilka godzin — zamiast odkrywać brakującą encję
+trzy miesiące po starcie kodowania. **Wyłącznie dane sztuczne.** Żadnego importu
+z prawdziwej wspólnoty, nawet „na chwilę, do testu".
+
+### c) Wymagania prawne i sprawozdawcze
+
+Rejestr obowiązków, które program ma obsłużyć: ustawa o własności lokali, ustawa
+o spółdzielniach mieszkaniowych, ustawa o rachunkowości, rozliczenie roczne mediów,
+terminy zebrań rocznych, sprawozdanie finansowe, obowiązki podatkowe, sprawozdawczość GUS.
+
+Kolumny: obowiązek, podstawa prawna, termin ustawowy, dotyczy (wspólnota/spółdzielnia),
+czy WIS to obsługuje, priorytet, link do zgłoszenia. To jednocześnie roadmapa
+i argumentacja sprzedażowa — zarządca kupuje program, który pilnuje terminów za niego.
+
+### d) Pilotaże, backlog i feedback
+
+- **Pipeline wdrożeń:** zarządca, liczba wspólnot i lokali, status `rozmowa` → `demo`
+  → `pilotaż` → `wdrożenie`, obecny program (z czego migruje), blokery
+- **Backlog funkcji** z priorytetem i źródłem — który zarządca o to poprosił i ilu
+  innych poprosiło o to samo
+- **Zgłoszenia błędów** z pilotażu, powiązane z modułem
+
+Airtable wygrywa tu z Jirą prostotą: zarządca wypełni formularz zgłoszenia, nie założy konta w Jirze.
+
+**Granica:** w tabelach pilotaży trzymasz dane kontaktowe zarządcy — firma, osoba,
+telefon, mail. Nigdy dane mieszkańców, numerów lokali z nazwiskami ani sald.
 
 ---
 
@@ -135,4 +200,5 @@ sprawdź aktualne.
 1. **Kursy** — jeden dzień, efekt od pierwszego zapisu.
 2. **Kalendarz treści** — pół dnia, przeniesienie istniejącego planu widoczności.
 3. **BiuroPanel** — dwa dni na schemat, potem kwartał używania jako walidacja produktu.
-4. **WIS** — po doprecyzowaniu zakresu.
+4. **WIS** — katalog reguł rozliczeniowych (punkt 3a) od razu, równolegle
+   z pracą nad programem; reszta w miarę postępu projektu.
