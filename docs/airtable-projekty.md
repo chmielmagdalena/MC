@@ -16,9 +16,11 @@ Szczegółowy schemat dla priorytetowego projektu (kursy) → [`airtable-kursy.m
 | `taxpolonica` | strona biura rachunkowego | Lovable, React, Supabase Edge Functions | produkcja |
 | `MC` | strona wizytówka | statyczny HTML/CSS/JS | produkcja |
 | `SmartHousing-Manager` (WIS) | wspólnoty i spółdzielnie | Google AI Studio, Express + SQLite, React 19 | wczesny prototyp |
-| `africano-booking` | rezerwacja stolików (Africano, Wrocław) | Lovable, React, Supabase | osobny projekt, przydatny wzorzec |
+| `africano-booking` | rezerwacja stolików (Africano, Wrocław) | Lovable, React, Supabase | osobny projekt |
+| `platforma-szkolenia` | zapisy, płatności, zaświadczenia dla szkoleń | TanStack Start, Supabase | w budowie, zastępuje bazę kursów w Airtable |
 
-Kursy nie mają jeszcze repozytorium — i nie potrzebują. To właśnie miejsce dla Airtable.
+Kursy mają od października własną platformę (`platforma-szkolenia`), więc nie są już
+zadaniem dla Airtable — szczegóły w rozdziale 1.
 BiuroPanel też nie ma repozytorium, bo decyzją z 21.09.2026 jest rozwinięciem
 `jpk-tag-finder`, a nie osobnym produktem.
 
@@ -37,20 +39,35 @@ swoje backendy (Supabase w trzech repo, SQLite w WIS) — i tak ma zostać.
 
 ---
 
-## 1. Kursy i szkolenia — priorytet
+## 1. Kursy i szkolenia — obsługuje je `platforma-szkolenia`
 
-Jedyny projekt bez kodu i jedyny, w którym Airtable jest docelowym rozwiązaniem,
-a nie protezą. Szkolenia to w 80% logistyka i przypomnienia: kto się zapisał, kto
-zapłacił, kto dostał link, kto dostał certyfikat.
+Pierwotnie to był priorytet dla Airtable. **Już nie jest** (decyzja z 06.10.2026):
+powstała własna platforma na Supabase, która robi to samo i więcej.
 
-Pełny schemat, automatyzacje i plan wdrożenia: [`airtable-kursy.md`](./airtable-kursy.md).
-W skrócie: pięć tabel, formularz zapisu na stronie, siedem automatyzacji mailowych,
-jeden dzień pracy.
+Ma tabele `szkolenie`, `termin`, `zapis`, `osoba`, `certyfikat`, `ankieta`,
+`szablon_maila`, `organizacja`, `czlonek`, `rola`, a do tego funkcje pokrywające
+wszystkie automatyzacje zaplanowane w Airtable: `zapisz_sie_na_termin`,
+`wyslij_monity_o_wplacie`, `wyslij_przypomnienia`, `wyslij_podsumowanie`,
+`wystaw_zaswiadczenie`, `zapros_z_listy_rezerwowej`. Plus rzeczy, których w Airtable
+nie dałoby się zrobić porządnie: tokeny rezygnacji i wypisu, zaproszenia z wygasaniem,
+role i członkostwa, publiczne widoki oferty.
 
-Gdyby zapisy miały kiedyś wyjść poza Airtable, nie zaczynasz od zera: `africano-booking`
-to gotowy wzorzec rezerwacji na Supabase — `reservations`, `reservation_requests`,
-`user_roles`, formularz klienta plus panel administratora. Ta sama struktura obsługuje
-zapisy na szkolenia po zmianie nazw encji.
+**Dlaczego nie podpinamy Airtable do zapisów:** powstałoby drugie źródło prawdy dla tych
+samych rekordów. Taka para zawsze się rozjeżdża — ktoś zmienia status w Airtable,
+platforma o tym nie wie i wysyła monit o wpłatę osobie, która zapłaciła. Przy pieniądzach
+i zaświadczeniach to nie jest ryzyko teoretyczne.
+
+Jedyne sensowne połączenie jest jednokierunkowe i tylko do raportowania: webhook
+z Supabase po wstawieniu `zapis` → kopia do Airtable jako rejestr sprzedażowy, klucz API
+po stronie serwera. Platforma pozostaje jedynym miejscem, gdzie cokolwiek się zmienia.
+
+Schemat, który powstał dla Airtable, zostaje w [`airtable-kursy.md`](./airtable-kursy.md)
+jako zapis wymagań — lista widoków, automatyzacji i granic RODO nadal opisuje, co obsługa
+szkoleń musi umieć.
+
+**Warte przeniesienia w drugą stronę:** `platforma-szkolenia` ma `organizacja` + `czlonek`
++ `rola`, czyli dokładnie tę wielodostępność, której brakuje w JPK Mapperze (rozdział 2).
+Przy BiuroPanelu to gotowy wzorzec zamiast projektowania od zera.
 
 ---
 
@@ -242,11 +259,10 @@ aktualne przed zakupem.
 
 ## 7. Kolejność wdrożenia
 
-1. **Kursy** — jeden dzień, efekt od pierwszego zapisu. Jedyna rzecz, która zarabia od razu.
-2. **Katalog reguł rozliczeniowych WIS** — zacznij równolegle, po godzinie dziennie.
-   To najcenniejszy zasób w całym zestawieniu i nie wymaga ani linijki kodu.
-3. **Rejestr leadów ze stron** — pół dnia, zamyka dziurę w `contact-form`.
-4. **Kalendarz treści** — pół dnia, przeniesienie istniejącego planu widoczności.
-5. **BiuroPanel** — dwa dni na schemat w Airtable, kwartał używania na żywych sprawach,
+1. **Katalog reguł rozliczeniowych WIS** — po godzinie dziennie. To najcenniejszy zasób
+   w całym zestawieniu i nie wymaga ani linijki kodu.
+2. **Rejestr leadów ze stron** — pół dnia, zamyka dziurę w `contact-form`.
+3. **Kalendarz treści** — pół dnia, przeniesienie istniejącego planu widoczności.
+4. **BiuroPanel** — dwa dni na schemat w Airtable, kwartał używania na żywych sprawach,
    potem migracja do Supabase JPK Mappera. Migrację organizacji i członkostw (punkt 2.1)
    zrób wcześniej, niezależnie od BiuroPanelu — im później, tym drożej.

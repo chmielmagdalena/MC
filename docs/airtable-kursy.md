@@ -1,5 +1,14 @@
 # Airtable dla kursów i szkoleń — gotowy schemat bazy
 
+> **Dokument archiwalny (od 06.10.2026).** Kursy obsługuje `platforma-szkolenia` —
+> własna aplikacja na Supabase z tabelami `szkolenie`, `termin`, `zapis`, `osoba`,
+> `certyfikat`, `ankieta` i kompletem automatyzacji (monity o wpłatę, przypomnienia,
+> ankiety, zaświadczenia, lista rezerwowa). Tej bazy w Airtable **nie wdrażamy** —
+> byłaby drugim źródłem prawdy dla tych samych zapisów i płatności.
+>
+> Zostaje jako zapis wymagań: lista widoków, automatyzacji i granic RODO nadal opisuje,
+> co obsługa szkoleń musi umieć.
+
 Dokument roboczy. Zakres: **back-office**, czyli baza wewnętrzna dla organizacji szkoleń
 „AI dla księgowych". Uczestnik styka się z nią wyłącznie przez formularz zapisu i maile.
 

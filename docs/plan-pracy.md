@@ -16,7 +16,7 @@ Stan na 21.09.2026.
 | **WIS** | wspólnoty i spółdzielnie | `SmartHousing-Manager` | wczesny prototyp |
 | **TP** | strona Tax Polonica | `taxpolonica` | produkcja |
 | **MC** | strona wizytówka | `MC` | produkcja |
-| **KUR** | kursy i szkolenia AI | — | do uruchomienia, bez kodu |
+| **KUR** | kursy i szkolenia AI | `platforma-szkolenia` | własna platforma na Supabase |
 
 Decyzje, które już zapadły:
 
@@ -24,6 +24,9 @@ Decyzje, które już zapadły:
    jedna subskrypcja, wspólna tabela `companies`.
 2. **Airtable pełni rolę back-office'u.** Nie jest bazą żadnego produktu ani CMS-em stron.
 3. **WIS nie dostaje prawdziwych danych** do czasu naprawy dostępu do API.
+4. **Kursy obsługuje `platforma-szkolenia`, nie Airtable** (06.10.2026) — platforma ma
+   własne tabele i komplet automatyzacji, więc baza w Airtable byłaby drugim źródłem
+   prawdy dla tych samych rekordów.
 
 ---
 
@@ -31,14 +34,14 @@ Decyzje, które już zapadły:
 
 | # | Zadanie | Czas | Gdzie opisane |
 |---|---|---|---|
-| A1 | Baza kursów: tabele, formularz zapisu, automatyzacje mailowe | 1 dzień | [`airtable-kursy.md`](./airtable-kursy.md) |
+| ~~A1~~ | ~~Baza kursów w Airtable~~ — **wykreślone**, zastąpione przez `platforma-szkolenia` | — | [`airtable-kursy.md`](./airtable-kursy.md) (archiwalny) |
 | A2 | Katalog reguł rozliczeniowych WIS (klucze podziału kosztów) | po godzinie dziennie przez 2–3 tygodnie | **[`a2-katalog-regul-wis.md`](./a2-katalog-regul-wis.md)** — rozpisane z checkboxami |
 | A3 | Rejestr leadów ze stron | pół dnia | [`airtable-projekty.md`](./airtable-projekty.md#4-strony-internetowe) |
 | A4 | Kalendarz treści (przeniesienie planu widoczności) | pół dnia | [`airtable-projekty.md`](./airtable-projekty.md#4-strony-internetowe) |
 | A5 | Schemat BiuroPanelu w Airtable + kwartał używania na żywych sprawach | 2 dni + kwartał | [`airtable-projekty.md`](./airtable-projekty.md#2-biuropanel--rozwinięcie-jpk-mappera) |
 
-Kolejność nie jest przypadkowa: **A1 zarabia od razu**, **A2 jest najcenniejszym zasobem
-i nie wymaga ani linijki kodu**, reszta może poczekać.
+Po wykreśleniu A1 pierwszeństwo ma **A2 — najcenniejszy zasób w całym zestawieniu
+i jedyny, który nie wymaga ani linijki kodu**. Reszta może poczekać.
 
 Przed pierwszym rekordem w Airtable: podpisana umowa powierzenia (DPA), wpis w rejestrze
 czynności przetwarzania, informacja w polityce prywatności o przetwarzaniu poza EOG.
