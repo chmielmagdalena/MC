@@ -4,7 +4,8 @@ Dokument roboczy, oparty na stanie faktycznym repozytoriów (przegląd: 21.09.20
 Założenie przyjęte na wejściu: Airtable pełni rolę **back-office'u**, czyli bazy
 wewnętrznej. Nie jest bazą produkcyjną aplikacji ani CMS-em stron.
 
-Szczegółowy schemat dla priorytetowego projektu (kursy) → [`airtable-kursy.md`](./airtable-kursy.md).
+Priorytetem jest dziś **A2 — katalog reguł rozliczeniowych WIS** → [`a2-katalog-regul-wis.md`](./a2-katalog-regul-wis.md).
+Schemat bazy kursów ([`airtable-kursy.md`](./airtable-kursy.md)) jest archiwalny — patrz rozdział 1.
 
 ---
 
