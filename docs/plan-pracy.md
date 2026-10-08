@@ -36,7 +36,7 @@ Decyzje, które już zapadły:
 |---|---|---|---|
 | ~~A1~~ | ~~Baza kursów w Airtable~~ — **wykreślone**, zastąpione przez `platforma-szkolenia` | — | [`airtable-kursy.md`](./airtable-kursy.md) (archiwalny) |
 | A2 | Katalog reguł rozliczeniowych WIS (klucze podziału kosztów) | po godzinie dziennie przez 2–3 tygodnie | **[`a2-katalog-regul-wis.md`](./a2-katalog-regul-wis.md)** — rozpisane z checkboxami |
-| A3 | Rejestr leadów ze stron | pół dnia | [`airtable-projekty.md`](./airtable-projekty.md#4-strony-internetowe) |
+| A3 | Rejestr leadów ze stron | pół dnia | **[`a3-rejestr-leadow.md`](./a3-rejestr-leadow.md)** — rozpisane z checkboxami |
 | A4 | Kalendarz treści (przeniesienie planu widoczności) | pół dnia | [`airtable-projekty.md`](./airtable-projekty.md#4-strony-internetowe) |
 | A5 | Schemat BiuroPanelu w Airtable + kwartał używania na żywych sprawach | 2 dni + kwartał | [`airtable-projekty.md`](./airtable-projekty.md#2-biuropanel--rozwinięcie-jpk-mappera) |
 
@@ -91,5 +91,6 @@ opublikowanych stron, niczego, co dotyka prawdziwych danych klientów.
 
 - [`airtable-kursy.md`](./airtable-kursy.md) — pełny schemat bazy dla szkoleń
 - [`a2-katalog-regul-wis.md`](./a2-katalog-regul-wis.md) — zadanie A2 rozpisane na etapy
+- [`a3-rejestr-leadow.md`](./a3-rejestr-leadow.md) — zadanie A3 rozpisane na etapy
 - [`airtable-projekty.md`](./airtable-projekty.md) — przegląd wszystkich projektów
 - `tax-polonica/` — teksty, plan widoczności w Google, poradnik PDF
