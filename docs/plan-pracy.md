@@ -38,7 +38,7 @@ Decyzje, które już zapadły:
 | A2 | Katalog reguł rozliczeniowych WIS (klucze podziału kosztów) | po godzinie dziennie przez 2–3 tygodnie | **[`a2-katalog-regul-wis.md`](./a2-katalog-regul-wis.md)** — rozpisane z checkboxami |
 | A3 | Rejestr leadów ze stron | pół dnia | **[`a3-rejestr-leadow.md`](./a3-rejestr-leadow.md)** — rozpisane z checkboxami |
 | A4 | Kalendarz treści (przeniesienie planu widoczności) | pół dnia | **[`a4-kalendarz-tresci.md`](./a4-kalendarz-tresci.md)** — rozpisane z checkboxami |
-| A5 | Schemat BiuroPanelu w Airtable + kwartał używania na żywych sprawach | 2 dni + kwartał | [`airtable-projekty.md`](./airtable-projekty.md#2-biuropanel--rozwinięcie-jpk-mappera) |
+| A5 | Schemat BiuroPanelu w Airtable + kwartał używania na żywych sprawach | 2 dni + kwartał | **[`a5-biuropanel-schemat.md`](./a5-biuropanel-schemat.md)** — rozpisane z checkboxami |
 
 Po wykreśleniu A1 pierwszeństwo ma **A2 — najcenniejszy zasób w całym zestawieniu
 i jedyny, który nie wymaga ani linijki kodu**. Reszta może poczekać.
@@ -93,5 +93,6 @@ opublikowanych stron, niczego, co dotyka prawdziwych danych klientów.
 - [`a2-katalog-regul-wis.md`](./a2-katalog-regul-wis.md) — zadanie A2 rozpisane na etapy
 - [`a3-rejestr-leadow.md`](./a3-rejestr-leadow.md) — zadanie A3 rozpisane na etapy
 - [`a4-kalendarz-tresci.md`](./a4-kalendarz-tresci.md) — zadanie A4 rozpisane na etapy
+- [`a5-biuropanel-schemat.md`](./a5-biuropanel-schemat.md) — zadanie A5 rozpisane na etapy
 - [`airtable-projekty.md`](./airtable-projekty.md) — przegląd wszystkich projektów
 - `tax-polonica/` — teksty, plan widoczności w Google, poradnik PDF
