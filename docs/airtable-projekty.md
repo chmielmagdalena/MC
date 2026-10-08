@@ -132,7 +132,27 @@ i backlogu, gdzie nie ma nic wrażliwego.
 
 ---
 
-## 3. WIS (`SmartHousing-Manager`) — prototyp, który potrzebuje specyfikacji
+## 3. WIS — uwaga: repozytorium jest nieaktualne
+
+> ### ⚠️ Ten rozdział opisuje nieaktualną wersję
+>
+> **Repozytorium `SmartHousing-Manager` stoi na commicie z marca 2026 i nie odpowiada
+> stanowi projektu.** Właściwy WIS jest rozwijany lokalnie i jest znacznie dalej:
+> to system księgowy z modułem dla wspólnot i spółdzielni, w aktywnym rozwoju
+> (ostatnie zmiany z początku października 2026).
+>
+> **Co to znaczy dla zadania A2:** warstwa naliczeń, którą katalog reguł miał dopiero
+> wyspecyfikować, w dużej mierze już istnieje. Katalog zachowuje sens jako lista
+> przypadków brzegowych do przetestowania, nie jako projekt od zera.
+>
+> Szczegóły stanu projektu świadomie nie są tu opisane — to repozytorium jest publiczne.
+> Ocena opierała się na schemacie bazy z danymi testowymi, nie na kodzie.
+>
+> Poniższy tekst zostaje jako zapis tego, co wiedziałam o wersji z GitHuba.
+
+---
+
+### Opis wersji z repozytorium (marzec 2026, nieaktualny)
 
 Stan na dziś: Express + SQLite, React 19, cztery tabele — `communities`, `residents`,
 `billing_history`, `meter_readings`. Działa dodawanie wspólnot, mieszkańców, ręcznych

@@ -1,5 +1,14 @@
 # A2 — Katalog reguł rozliczeniowych WIS
 
+> **⚠️ Zakres zmieniony (08.10.2026).** To zadanie powstało przy założeniu, że WIS nie ma
+> warstwy naliczeń. Lokalna wersja programu — ta rozwijana poza GitHubem — **ma ją**,
+> wraz ze stawkami obowiązującymi w okresach i rozliczaniem wpłat.
+>
+> **Co z tego zostaje:** katalog jako lista przypadków brzegowych do przetestowania
+> (etap 3) i sprawdzenie, czy program liczy je poprawnie. Budowanie tabeli reguł od zera
+> ma sens tylko tam, gdzie program czegoś nie obsługuje — przede wszystkim przy
+> rozliczaniu mediów.
+
 Zadanie A2 z [`plan-pracy.md`](./plan-pracy.md). Robota do odhaczania: schemat tabeli,
 lista pozycji do wypełnienia, przypadki brzegowe, definicja ukończenia.
 

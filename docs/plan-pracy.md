@@ -13,7 +13,7 @@ Stan na 21.09.2026.
 |---|---|---|---|
 | **JPK** | JPK CIT Mapper + panel firm | `jpk-tag-finder` | produkcja, plan płatny 99 zł |
 | **BP** | BiuroPanel | — (rozwinięcie `jpk-tag-finder`) | decyzja podjęta, projekt przed startem |
-| **WIS** | wspólnoty i spółdzielnie | `SmartHousing-Manager` | wczesny prototyp |
+| **WIS** | system księgowy z modułem wspólnot | rozwijany **lokalnie** | ⚠️ repozytorium `SmartHousing-Manager` jest **nieaktualne** |
 | **TP** | strona Tax Polonica | `taxpolonica` | produkcja |
 | **MC** | strona wizytówka | `MC` | produkcja |
 | **KUR** | kursy i szkolenia AI | `platforma-szkolenia` | własna platforma na Supabase |
@@ -23,7 +23,9 @@ Decyzje, które już zapadły:
 1. **BiuroPanel jest rozwinięciem JPK Mappera**, nie osobnym produktem — jeden Supabase,
    jedna subskrypcja, wspólna tabela `companies`.
 2. **Airtable pełni rolę back-office'u.** Nie jest bazą żadnego produktu ani CMS-em stron.
-3. **WIS nie dostaje prawdziwych danych** do czasu naprawy dostępu do API.
+3. ~~**WIS nie dostaje prawdziwych danych** do czasu naprawy dostępu do API.~~
+   **Nieaktualne (08.10.2026):** dotyczyło prototypu z repozytorium, nie wersji
+   rozwijanej lokalnie — patrz adnotacja w [`airtable-projekty.md`](./airtable-projekty.md#3-wis--uwaga-repozytorium-jest-nieaktualne).
 4. **Kursy obsługuje `platforma-szkolenia`, nie Airtable** (06.10.2026) — platforma ma
    własne tabele i komplet automatyzacji, więc baza w Airtable byłaby drugim źródłem
    prawdy dla tych samych rekordów.
@@ -35,7 +37,7 @@ Decyzje, które już zapadły:
 | # | Zadanie | Czas | Gdzie opisane |
 |---|---|---|---|
 | ~~A1~~ | ~~Baza kursów w Airtable~~ — **wykreślone**, zastąpione przez `platforma-szkolenia` | — | [`airtable-kursy.md`](./airtable-kursy.md) (archiwalny) |
-| A2 | Katalog reguł rozliczeniowych WIS (klucze podziału kosztów) | po godzinie dziennie przez 2–3 tygodnie | **[`a2-katalog-regul-wis.md`](./a2-katalog-regul-wis.md)** — rozpisane z checkboxami |
+| A2 | Katalog reguł rozliczeniowych WIS — **zakres zmniejszony**, program liczy już większość | do przejrzenia przed startem | **[`a2-katalog-regul-wis.md`](./a2-katalog-regul-wis.md)** — rozpisane z checkboxami |
 | A3 | Rejestr leadów ze stron | pół dnia | **[`a3-rejestr-leadow.md`](./a3-rejestr-leadow.md)** — rozpisane z checkboxami |
 | A4 | Kalendarz treści (przeniesienie planu widoczności) | pół dnia | **[`a4-kalendarz-tresci.md`](./a4-kalendarz-tresci.md)** — rozpisane z checkboxami |
 | A5 | Schemat BiuroPanelu w Airtable + kwartał używania na żywych sprawach | 2 dni + kwartał | **[`a5-biuropanel-schemat.md`](./a5-biuropanel-schemat.md)** — rozpisane z checkboxami |
