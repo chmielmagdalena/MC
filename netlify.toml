@@ -1,0 +1,25 @@
+# Hosting strony wizytówki. Publikowany jest wyłącznie katalog site/,
+# tworzony przez scripts/build-site.sh — dzięki temu dokumenty robocze
+# z docs/ i tax-polonica/ nie trafiają do sieci, nawet gdy repozytorium
+# pozostaje podłączone do Netlify.
+
+[build]
+  command = "bash scripts/build-site.sh"
+  publish = "site"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
