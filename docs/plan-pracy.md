@@ -13,7 +13,7 @@ Stan na 21.09.2026.
 |---|---|---|---|
 | **JPK** | JPK CIT Mapper + panel firm | `jpk-tag-finder` | produkcja, plan płatny 99 zł |
 | **BP** | BiuroPanel | — (rozwinięcie `jpk-tag-finder`) | decyzja podjęta, projekt przed startem |
-| **WIS** | wspólnoty i spółdzielnie | rozwijany **lokalnie** (SQLite) | ⚠️ repozytorium `SmartHousing-Manager` jest **nieaktualne** |
+| **WIS** | system księgowy z modułem wspólnot | rozwijany **lokalnie** (SQLite, 184 tabele) | ⚠️ repozytorium `SmartHousing-Manager` jest **nieaktualne** |
 | **TP** | strona Tax Polonica | `taxpolonica` | produkcja |
 | **MC** | strona wizytówka | `MC` | produkcja |
 | **KUR** | kursy i szkolenia AI | `platforma-szkolenia` | własna platforma na Supabase |
@@ -37,7 +37,7 @@ Decyzje, które już zapadły:
 | # | Zadanie | Czas | Gdzie opisane |
 |---|---|---|---|
 | ~~A1~~ | ~~Baza kursów w Airtable~~ — **wykreślone**, zastąpione przez `platforma-szkolenia` | — | [`airtable-kursy.md`](./airtable-kursy.md) (archiwalny) |
-| A2 | Katalog reguł rozliczeniowych WIS (klucze podziału kosztów) | po godzinie dziennie przez 2–3 tygodnie | **[`a2-katalog-regul-wis.md`](./a2-katalog-regul-wis.md)** — rozpisane z checkboxami |
+| A2 | Katalog reguł rozliczeniowych WIS — **zakres zmniejszony**, program liczy już większość | do przejrzenia przed startem | **[`a2-katalog-regul-wis.md`](./a2-katalog-regul-wis.md)** — rozpisane z checkboxami |
 | A3 | Rejestr leadów ze stron | pół dnia | **[`a3-rejestr-leadow.md`](./a3-rejestr-leadow.md)** — rozpisane z checkboxami |
 | A4 | Kalendarz treści (przeniesienie planu widoczności) | pół dnia | **[`a4-kalendarz-tresci.md`](./a4-kalendarz-tresci.md)** — rozpisane z checkboxami |
 | A5 | Schemat BiuroPanelu w Airtable + kwartał używania na żywych sprawach | 2 dni + kwartał | **[`a5-biuropanel-schemat.md`](./a5-biuropanel-schemat.md)** — rozpisane z checkboxami |

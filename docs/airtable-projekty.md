@@ -136,30 +136,39 @@ i backlogu, gdzie nie ma nic wrażliwego.
 
 > ### ⚠️ Ten rozdział opisuje nieaktualną wersję
 >
-> **Repozytorium `SmartHousing-Manager` stoi na commicie z marca 2026 i nie odpowiada
-> stanowi projektu.** Właściwy WIS jest rozwijany lokalnie, na bazie SQLite, i jest
-> znacznie dalej.
+> **Repozytorium `SmartHousing-Manager` stoi na commicie z marca 2026 i nie ma nic
+> wspólnego ze stanem projektu.** Właściwy WIS jest rozwijany lokalnie na bazie SQLite.
+> Sprawdzone 08.10.2026 na kopii bazy: **184 tabele**, migracje do numeru 36 z 4 października,
+> czyli rozwój trwa.
 >
-> Z dziennika bazy przesłanego 08.10.2026 wynika **47 tabel**, w tym cała warstwa,
-> którą poniższy tekst opisuje jako brakującą:
+> **To nie jest program dla wspólnot — to system księgowy z modułem wspólnot.**
 >
-> | Obszar | Tabele |
+> | Obszar | Co w bazie |
 > |---|---|
-> | nieruchomość | `communities`, `buildings`, `units`, `lands` |
-> | osoby i tytuły | `owners`, `unit_residents`, `ownership_history` |
-> | stawki i składniki | `pricing_component_rates`, `unit_component_periods`, `unit_basis_periods` — **z okresami obowiązywania** (`valid_from`, `valid_to`) |
-> | rozrachunki | `payment_allocations`, `billing_history`, `payer_accounts`, `kartoteka_transfers`, `bo_kartotek_status` |
-> | media | `meter_norms`, `meter_settlements`, `meter_settlement_items` — w tym pole `difference`, czyli **różnica bilansowa** |
-> | księgowość | `ledger_kinds`, `invoices`, `invoice_items`, `cost_invoices`, `sales_decree_draft`, `bank_fee_scheme` |
-> | obsługa | `resolutions`, `faults`, `correspondence`, `tenant_messages`, `announcements`, `contracts`, `contractors` |
+> | księgi | plan kont (749 pozycji), dzienniki, dekrety sprzedaży (173 nagłówki, 1828 pozycji), schematy księgowania, lata obrotowe |
+> | bank | wyciągi (117), operacje (267), schemat opłat i prowizji, rozrachunki |
+> | podatki i bramki | JPK, VAT, CIT, PIT-4, KSeF (73 faktury z oryginałem XML), e-Doręczenia, eSprawozdania |
+> | kadry i płace | 19 pracowników, umowy, 34 przebiegi płacowe, składniki, ZUS, PPK, kalendarz, nieobecności |
+> | środki trwałe | ewidencja, amortyzacja, ulepszenia, likwidacje, inwentaryzacja |
+> | **wspólnoty** | 4 wspólnoty, 3 budynki, 21 lokali, 19 właścicieli, historia własności |
+> | **naliczenia** | składniki opłat (25 definicji, 206 przypisań do lokali), stawki z okresami (`valid_from`/`valid_to`), podstawy naliczeń per lokal z okresami (`unit_basis_periods`), przebiegi naliczeń (268 nagłówków, 1813 pozycji) |
+> | liczniki | 66 liczników, 64 odczyty |
+> | rozrachunki | konta płatników, alokacja wpłat na naliczenia, bilans otwarcia kartotek, windykacja |
 >
-> Czyli stawki z okresami obowiązywania, alokacja wpłat na naliczenia, rozliczenie
-> mediów z różnicą bilansową i bilans otwarcia kartotek **już istnieją**.
+> **Co to znaczy dla zadania A2:** warstwa, którą katalog reguł miał dopiero
+> wyspecyfikować, w dużej mierze **już istnieje** — stawki z okresami obowiązywania,
+> zmienne podstawy naliczeń per lokal, przeliczenia z historią. Katalog zachowuje sens
+> jako lista przypadków brzegowych do przetestowania, nie jako projekt od zera.
 >
-> **Czego ta adnotacja nie przesądza:** oglądałam wyłącznie listę tabel z dziennika
-> WAL, nie kod i nie logikę naliczeń. Zanim ten rozdział zostanie przepisany, trzeba
-> zobaczyć całość — najlepiej wypchniętą do repozytorium albo przez Claude Code
-> uruchomiony lokalnie.
+> **Jedna obserwacja z danych:** tabele rozliczenia mediów (`meter_settlements`,
+> `meter_settlement_items`, `meter_norms`, `media_*`) oraz uchwały, usterki
+> i korespondencja są **puste**, mimo że schemat je przewiduje. Odczyty liczników są
+> wprowadzane. Wygląda to na moduł zaprojektowany, lecz jeszcze nieużywany — ale to
+> wniosek z jednej kopii bazy, nie z kodu.
+>
+> **Czego nie widziałam:** kodu. Ocena opiera się wyłącznie na schemacie i liczbie
+> rekordów. Żeby powiedzieć cokolwiek o logice naliczeń, trzeba zobaczyć program —
+> najlepiej przez Claude Code uruchomiony lokalnie.
 >
 > Poniższy tekst zostaje jako zapis tego, co wiedziałam o wersji z GitHuba.
 

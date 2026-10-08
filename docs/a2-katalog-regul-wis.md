@@ -1,14 +1,17 @@
 # A2 — Katalog reguł rozliczeniowych WIS
 
-> **⚠️ Zakres do zweryfikowania (08.10.2026).** To zadanie powstało przy założeniu, że
-> WIS nie ma warstwy naliczeń. Lokalna wersja programu — ta rozwijana poza GitHubem —
-> ma tabele `pricing_component_rates`, `unit_component_periods`, `unit_basis_periods`,
-> `meter_settlements` z różnicą bilansową oraz `payment_allocations`. Część reguł jest
-> więc już zaimplementowana.
+> **⚠️ Zakres zmieniony (08.10.2026).** To zadanie powstało przy założeniu, że WIS nie ma
+> warstwy naliczeń. Sprawdzenie lokalnej bazy pokazało, że **ma**: składniki opłat
+> z definicjami i przypisaniem do lokali, stawki z okresami obowiązywania, zmienne
+> podstawy naliczeń per lokal (`unit_basis_periods`), przebiegi naliczeń z pozycjami
+> oraz alokację wpłat.
 >
-> Katalog nadal ma sens jako **spis reguł i przypadków brzegowych do przetestowania**,
-> ale przed startem porównaj listę z etapu 2 i 3 z tym, co program już liczy —
-> inaczej opiszesz od nowa coś, co działa.
+> **Co z tego zostaje:** katalog jako **lista przypadków brzegowych do przetestowania**
+> (etap 3) i jako sprawdzenie, czy program liczy je poprawnie. Etap 1 i 2 — budowanie
+> tabeli reguł od zera — ma sens tylko w zakresie, w jakim program czegoś nie obsługuje.
+>
+> Puste w bazie są tabele rozliczenia mediów, więc to prawdopodobnie tam katalog przyda
+> się najbardziej: klucze podziału, różnica bilansowa, brak odczytu, ryczałt zastępczy.
 
 Zadanie A2 z [`plan-pracy.md`](./plan-pracy.md). Robota do odhaczania: schemat tabeli,
 lista pozycji do wypełnienia, przypadki brzegowe, definicja ukończenia.
