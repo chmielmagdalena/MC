@@ -1,5 +1,15 @@
 # A2 — Katalog reguł rozliczeniowych WIS
 
+> **⚠️ Zakres do zweryfikowania (08.10.2026).** To zadanie powstało przy założeniu, że
+> WIS nie ma warstwy naliczeń. Lokalna wersja programu — ta rozwijana poza GitHubem —
+> ma tabele `pricing_component_rates`, `unit_component_periods`, `unit_basis_periods`,
+> `meter_settlements` z różnicą bilansową oraz `payment_allocations`. Część reguł jest
+> więc już zaimplementowana.
+>
+> Katalog nadal ma sens jako **spis reguł i przypadków brzegowych do przetestowania**,
+> ale przed startem porównaj listę z etapu 2 i 3 z tym, co program już liczy —
+> inaczej opiszesz od nowa coś, co działa.
+
 Zadanie A2 z [`plan-pracy.md`](./plan-pracy.md). Robota do odhaczania: schemat tabeli,
 lista pozycji do wypełnienia, przypadki brzegowe, definicja ukończenia.
 

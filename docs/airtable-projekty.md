@@ -132,7 +132,40 @@ i backlogu, gdzie nie ma nic wrażliwego.
 
 ---
 
-## 3. WIS (`SmartHousing-Manager`) — prototyp, który potrzebuje specyfikacji
+## 3. WIS — uwaga: repozytorium jest nieaktualne
+
+> ### ⚠️ Ten rozdział opisuje nieaktualną wersję
+>
+> **Repozytorium `SmartHousing-Manager` stoi na commicie z marca 2026 i nie odpowiada
+> stanowi projektu.** Właściwy WIS jest rozwijany lokalnie, na bazie SQLite, i jest
+> znacznie dalej.
+>
+> Z dziennika bazy przesłanego 08.10.2026 wynika **47 tabel**, w tym cała warstwa,
+> którą poniższy tekst opisuje jako brakującą:
+>
+> | Obszar | Tabele |
+> |---|---|
+> | nieruchomość | `communities`, `buildings`, `units`, `lands` |
+> | osoby i tytuły | `owners`, `unit_residents`, `ownership_history` |
+> | stawki i składniki | `pricing_component_rates`, `unit_component_periods`, `unit_basis_periods` — **z okresami obowiązywania** (`valid_from`, `valid_to`) |
+> | rozrachunki | `payment_allocations`, `billing_history`, `payer_accounts`, `kartoteka_transfers`, `bo_kartotek_status` |
+> | media | `meter_norms`, `meter_settlements`, `meter_settlement_items` — w tym pole `difference`, czyli **różnica bilansowa** |
+> | księgowość | `ledger_kinds`, `invoices`, `invoice_items`, `cost_invoices`, `sales_decree_draft`, `bank_fee_scheme` |
+> | obsługa | `resolutions`, `faults`, `correspondence`, `tenant_messages`, `announcements`, `contracts`, `contractors` |
+>
+> Czyli stawki z okresami obowiązywania, alokacja wpłat na naliczenia, rozliczenie
+> mediów z różnicą bilansową i bilans otwarcia kartotek **już istnieją**.
+>
+> **Czego ta adnotacja nie przesądza:** oglądałam wyłącznie listę tabel z dziennika
+> WAL, nie kod i nie logikę naliczeń. Zanim ten rozdział zostanie przepisany, trzeba
+> zobaczyć całość — najlepiej wypchniętą do repozytorium albo przez Claude Code
+> uruchomiony lokalnie.
+>
+> Poniższy tekst zostaje jako zapis tego, co wiedziałam o wersji z GitHuba.
+
+---
+
+### Opis wersji z repozytorium (marzec 2026, nieaktualny)
 
 Stan na dziś: Express + SQLite, React 19, cztery tabele — `communities`, `residents`,
 `billing_history`, `meter_readings`. Działa dodawanie wspólnot, mieszkańców, ręcznych
