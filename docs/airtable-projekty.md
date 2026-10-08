@@ -166,6 +166,9 @@ i backlogu, gdzie nie ma nic wrażliwego.
 > wprowadzane. Wygląda to na moduł zaprojektowany, lecz jeszcze nieużywany — ale to
 > wniosek z jednej kopii bazy, nie z kodu.
 >
+> **Dane w bazie są testowe**, nie produkcyjne — kopia służy do pracy nad programem,
+> nie zawiera prawdziwych właścicieli, pracowników ani kwot.
+>
 > **Czego nie widziałam:** kodu. Ocena opiera się wyłącznie na schemacie i liczbie
 > rekordów. Żeby powiedzieć cokolwiek o logice naliczeń, trzeba zobaczyć program —
 > najlepiej przez Claude Code uruchomiony lokalnie.
