@@ -13,7 +13,7 @@ Stan na 21.09.2026.
 |---|---|---|---|
 | **JPK** | JPK CIT Mapper + panel firm | `jpk-tag-finder` | produkcja, plan płatny 99 zł |
 | **BP** | BiuroPanel | — (rozwinięcie `jpk-tag-finder`) | decyzja podjęta, projekt przed startem |
-| **WIS** | system księgowy z modułem wspólnot | rozwijany **lokalnie** (SQLite, 184 tabele) | ⚠️ repozytorium `SmartHousing-Manager` jest **nieaktualne** |
+| **WIS** | system księgowy z modułem wspólnot | rozwijany **lokalnie** | ⚠️ repozytorium `SmartHousing-Manager` jest **nieaktualne** |
 | **TP** | strona Tax Polonica | `taxpolonica` | produkcja |
 | **MC** | strona wizytówka | `MC` | produkcja |
 | **KUR** | kursy i szkolenia AI | `platforma-szkolenia` | własna platforma na Supabase |

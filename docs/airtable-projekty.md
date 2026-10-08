@@ -136,42 +136,17 @@ i backlogu, gdzie nie ma nic wrażliwego.
 
 > ### ⚠️ Ten rozdział opisuje nieaktualną wersję
 >
-> **Repozytorium `SmartHousing-Manager` stoi na commicie z marca 2026 i nie ma nic
-> wspólnego ze stanem projektu.** Właściwy WIS jest rozwijany lokalnie na bazie SQLite.
-> Sprawdzone 08.10.2026 na kopii bazy: **184 tabele**, migracje do numeru 36 z 4 października,
-> czyli rozwój trwa.
+> **Repozytorium `SmartHousing-Manager` stoi na commicie z marca 2026 i nie odpowiada
+> stanowi projektu.** Właściwy WIS jest rozwijany lokalnie i jest znacznie dalej:
+> to system księgowy z modułem dla wspólnot i spółdzielni, w aktywnym rozwoju
+> (ostatnie zmiany z początku października 2026).
 >
-> **To nie jest program dla wspólnot — to system księgowy z modułem wspólnot.**
+> **Co to znaczy dla zadania A2:** warstwa naliczeń, którą katalog reguł miał dopiero
+> wyspecyfikować, w dużej mierze już istnieje. Katalog zachowuje sens jako lista
+> przypadków brzegowych do przetestowania, nie jako projekt od zera.
 >
-> | Obszar | Co w bazie |
-> |---|---|
-> | księgi | plan kont (749 pozycji), dzienniki, dekrety sprzedaży (173 nagłówki, 1828 pozycji), schematy księgowania, lata obrotowe |
-> | bank | wyciągi (117), operacje (267), schemat opłat i prowizji, rozrachunki |
-> | podatki i bramki | JPK, VAT, CIT, PIT-4, KSeF (73 faktury z oryginałem XML), e-Doręczenia, eSprawozdania |
-> | kadry i płace | 19 pracowników, umowy, 34 przebiegi płacowe, składniki, ZUS, PPK, kalendarz, nieobecności |
-> | środki trwałe | ewidencja, amortyzacja, ulepszenia, likwidacje, inwentaryzacja |
-> | **wspólnoty** | 4 wspólnoty, 3 budynki, 21 lokali, 19 właścicieli, historia własności |
-> | **naliczenia** | składniki opłat (25 definicji, 206 przypisań do lokali), stawki z okresami (`valid_from`/`valid_to`), podstawy naliczeń per lokal z okresami (`unit_basis_periods`), przebiegi naliczeń (268 nagłówków, 1813 pozycji) |
-> | liczniki | 66 liczników, 64 odczyty |
-> | rozrachunki | konta płatników, alokacja wpłat na naliczenia, bilans otwarcia kartotek, windykacja |
->
-> **Co to znaczy dla zadania A2:** warstwa, którą katalog reguł miał dopiero
-> wyspecyfikować, w dużej mierze **już istnieje** — stawki z okresami obowiązywania,
-> zmienne podstawy naliczeń per lokal, przeliczenia z historią. Katalog zachowuje sens
-> jako lista przypadków brzegowych do przetestowania, nie jako projekt od zera.
->
-> **Jedna obserwacja z danych:** tabele rozliczenia mediów (`meter_settlements`,
-> `meter_settlement_items`, `meter_norms`, `media_*`) oraz uchwały, usterki
-> i korespondencja są **puste**, mimo że schemat je przewiduje. Odczyty liczników są
-> wprowadzane. Wygląda to na moduł zaprojektowany, lecz jeszcze nieużywany — ale to
-> wniosek z jednej kopii bazy, nie z kodu.
->
-> **Dane w bazie są testowe**, nie produkcyjne — kopia służy do pracy nad programem,
-> nie zawiera prawdziwych właścicieli, pracowników ani kwot.
->
-> **Czego nie widziałam:** kodu. Ocena opiera się wyłącznie na schemacie i liczbie
-> rekordów. Żeby powiedzieć cokolwiek o logice naliczeń, trzeba zobaczyć program —
-> najlepiej przez Claude Code uruchomiony lokalnie.
+> Szczegóły stanu projektu świadomie nie są tu opisane — to repozytorium jest publiczne.
+> Ocena opierała się na schemacie bazy z danymi testowymi, nie na kodzie.
 >
 > Poniższy tekst zostaje jako zapis tego, co wiedziałam o wersji z GitHuba.
 
