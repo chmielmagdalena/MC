@@ -69,27 +69,31 @@ doradztwa podatkowego, usług prawnych ani „optymalizacji podatkowej”.
 
 ---
 
-## 2. Najpilniejsze: poprawić wpisy, które już istnieją
+## 2. Najpierw sprawdzić wpisy, które już istnieją
 
-Przy sprawdzaniu widoczności wyszło, że w sieci krążą nasze **stare dane**:
-ul. Sępa Szarzyńskiego 69/1, 50-344, telefon 515 163 812 i adres
-biuro@taxpolonica.pl. Pojawiają się w co najmniej dwóch miejscach, które Google
-traktuje poważnie. To tłumaczy część problemu z widocznością lepiej niż brak
-nowych wpisów: sygnały same sobie przeczą.
+Wpis w SKWP jest **aktualny**: ul. kard. Stefana Wyszyńskiego 56/5, 50-331
+Wrocław, telefon 789643335, kontakt@taxpolonica.pl. Jedyne, co tam do poprawy,
+to adres strony podany jako „www.taxpolonica.pl”, a my ujednoliciliśmy wersję
+bez „www”. Drobiazg, ale skoro na stronie jest przycisk „Edytuj dane biura”,
+zajmie minutę.
 
-Nowych katalogów nie ma sensu dodawać, dopóki to nie jest uporządkowane.
+Pozostałe katalogi trzeba obejrzeć po zalogowaniu, bo w wynikach wyszukiwania
+krążą nasze stare dane: ul. Sępa Szarzyńskiego 69/1, 50-344, telefon
+515 163 812 i adres biuro@taxpolonica.pl. Przy SKWP okazało się, że to była
+stara kopia strony w wyszukiwarce, a nie faktyczna treść wpisu. Przy Oferteo
+może być tak samo, więc zanim cokolwiek zgłaszamy, patrzymy na sam profil.
 
-| Miejsce | Co trzeba zrobić | Jak |
-|---|---|---|
-| **SKWP** — skwp.pl/biuro-rachunkowe/tax-polonica/ | Zgłosić aktualizację adresu, telefonu, e-maila i strony | Mailem do Komisji Biur Rachunkowych przy SKwP, oddział dolnośląski. Wpis jest cenny: to strona organizacji branżowej, nie katalog śmieciowy |
-| **Oferteo** — oferteo.pl/tax-polonica-sp-z-o-o/firma/48467 | Przejąć profil, poprawić dane, **usunąć z listy usług „usługi prawne”** | Logowanie do panelu firmy; jeśli nie mamy dostępu, Oferteo odzyskuje profil po weryfikacji NIP |
-| **ALEO** — aleo.com | Adres z KRS jest poprawny. Warto przejąć profil i dopisać opis oraz telefon | Profil firmy można objąć po weryfikacji; darmowa wersja wystarczy |
-| **GoWork** | Sprawdzić, czy mamy tam wpis i czy to nie jest profil innej firmy | W wynikach widać „Biuro Rachunkowe Tax sp. z o.o.” o innym NIP. To nie my, nie ruszamy |
-| **Infobel, ksiegowosc24.pl, krs-pobierz i podobne** | Tylko sprawdzić dane | Powstają automatycznie z KRS. Jeśli adres jest z KRS, jest prawidłowy. Nie ma po co zabiegać o nic więcej |
+| Miejsce | Co sprawdzić i poprawić |
+|---|---|
+| **SKWP** — skwp.pl/biuro-rachunkowe/tax-polonica/ | Zmienić adres strony na `https://taxpolonica.pl` bez „www”. Reszta danych jest dobra. Przycisk „Edytuj dane biura” pod wpisem, wymaga zalogowania |
+| **Oferteo** — oferteo.pl/tax-polonica-sp-z-o-o/firma/48467 | Sprawdzić adres i telefon na samym profilu. W opisie usług figurują „usługi prawne”, a tego nie robimy, więc do usunięcia. Profil ma zero opinii |
+| **ALEO** — aleo.com | Adres z KRS, czyli prawidłowy. Warto przejąć profil i dopisać opis oraz telefon |
+| **GoWork** | Sprawdzić, czy mamy tam własny wpis. W wynikach widać „Biuro Rachunkowe Tax sp. z o.o.” o innym NIP, to nie my i tego nie ruszamy |
+| **Infobel, ksiegowosc24.pl, krs-pobierz i podobne** | Tylko rzut oka. Powstają automatycznie z KRS, więc adres mają poprawny. Nie ma po co o nic zabiegać |
 
-Uwaga przy sprawdzaniu: we Wrocławiu działają **Biuro Rachunkowe Tax sp. z o.o.**
-(inny NIP) i **Tax-Pol**. To nie są nasze profile. Przy zgłoszeniach zawsze
-podajemy NIP 8971769606, żeby nie poprawiać komuś cudzej wizytówki.
+We Wrocławiu działają też **Biuro Rachunkowe Tax sp. z o.o.** (inny NIP)
+i **Tax-Pol**. Przy każdym zgłoszeniu podajemy NIP 8971769606, żeby nie
+poprawić komuś cudzej wizytówki.
 
 ---
 
@@ -154,8 +158,8 @@ Nie wypełniamy za nikogo wniosków i nie składamy sprawozdań do NIW.
 
 | Krok | Zadanie | Czas | Stan |
 |---|---|---|---|
-| 1 | SKWP: zgłoszenie aktualizacji danych | 15 min | do zrobienia |
-| 2 | Oferteo: przejęcie profilu, poprawa danych, usunięcie usług prawnych | 30 min | do zrobienia |
+| 1 | SKWP: poprawa adresu strony na wersję bez „www” | 5 min | do zrobienia |
+| 2 | Oferteo: sprawdzenie profilu, usunięcie usług prawnych | 30 min | do zrobienia |
 | 3 | Bing Places: wpis z importem z Google | 20 min | do zrobienia |
 | 4 | Apple Business Connect: wpis | 20 min | do zrobienia |
 | 5 | OpenStreetMap: punkt firmy | 15 min | do zrobienia |
@@ -165,9 +169,9 @@ Nie wypełniamy za nikogo wniosków i nie składamy sprawozdań do NIW.
 | 9 | ngo.pl: ogłoszenie o usługach księgowych | 30 min | do zrobienia |
 | 10 | Facebook: strona firmowa | 30 min | do zrobienia |
 
-Razem około czterech godzin, rozłożone na kilka wieczorów. Kroki 1 i 2 mają
-znaczenie nieporównywalnie większe niż pozostałe, bo usuwają sprzeczność
-w danych. Reszta to budowanie powtórzeń.
+Razem około czterech godzin, rozłożone na kilka wieczorów. Nic z tego nie jest
+pilne w sensie awarii. Największą wartość mają kroki 3 i 4, bo Bing i Apple to
+jedyne poważne mapy poza Google. Reszta to budowanie powtórzeń.
 
 Efektu nie widać od razu. Katalogi są indeksowane przez kilka tygodni, a modele
 językowe korzystają z danych zbieranych wcześniej, więc wzmianki dodane teraz
