@@ -118,3 +118,29 @@ takiego pola.
 Większości pól nie da się tu edytować. Bing wyświetla to wprost: żeby je
 zmienić, poprawiamy dane w wizytówce Google i czekamy na synchronizację.
 To dobrze, bo oznacza, że mamy jedno miejsce, w którym pilnujemy danych.
+
+
+---
+
+## Bing Webmaster Tools (osobna rzecz niż wizytówka)
+
+Przy okazji wizytówki została dodana domena do Bing Webmaster Tools, czyli
+odpowiednika Google Search Console. To nie to samo co Bing Places: wizytówka
+dotyczy firmy na mapie, Webmaster Tools dotyczy strony w wynikach.
+
+Weryfikacja przeszła **importem z Google Search Console**, bez wgrywania
+żadnych plików na stronę. Gdyby kiedyś trzeba było powtórzyć: ta opcja jest
+na ekranie dodawania strony, obok pola na adres. Metoda z plikiem
+`BingSiteAuth.xml` też działa, ale wymaga publikacji pliku w katalogu
+`public/` i jest zbędna, dopóki działa import.
+
+| Krok | Stan |
+|---|---|
+| Domena taxpolonica.pl dodana i zweryfikowana | zrobione 13.10.2026 |
+| Sitemapa zgłoszona (`https://taxpolonica.pl/sitemap.xml`) | do zrobienia |
+| AI Performance: pierwsze dane | po 48 h od weryfikacji |
+
+Zakładka **AI Performance** pokazuje, jak strona wypada w odpowiedziach
+Copilota, łącznie z udziałem w cytowaniach. To jedyne darmowe źródło takich
+danych, bo Google niczego podobnego nie udostępnia. Dane zbierają się od
+momentu weryfikacji, więc na początku będzie pusto i to normalne.
