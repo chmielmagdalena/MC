@@ -16,7 +16,8 @@ To jest wersja obowiązująca, zgodna ze stroną i wizytówką Google.
 
 | Pole | Wartość |
 |---|---|
-| Nazwa | TAX POLONICA sp. z o.o. |
+| Nazwa handlowa | Tax Polonica Biuro Rachunkowe |
+| Nazwa prawna | TAX POLONICA sp. z o.o. |
 | Ulica | ul. Kard. Stefana Wyszyńskiego 56 lok. 5 |
 | Kod i miasto | 50-331 Wrocław |
 | Telefon | 789 643 335 |
@@ -26,6 +27,13 @@ To jest wersja obowiązująca, zgodna ze stroną i wizytówką Google.
 | KRS | 0000375508 |
 | Branża | biuro rachunkowe / usługi księgowe |
 | Na rynku od | 2010 |
+
+Dwie nazwy i to jest w porządku, pod warunkiem że każda trafia we właściwe
+miejsce. **Tax Polonica Biuro Rachunkowe** idzie wszędzie tam, gdzie wpis widzi
+klient: wizytówka Google, Bing, mapy, katalogi firm. **TAX POLONICA sp. z o.o.**
+idzie tam, gdzie liczy się zgodność z rejestrem: KRS, ALEO, SKWP, faktury,
+umowy. Nazwy handlowej nie zmieniamy już nigdzie, bo to ona jest w wizytówce
+Google, a z niej synchronizują się kolejne serwisy.
 
 Uwaga na adres strony: wpisujemy wersję bez „www”, bo taka jest ustawiona jako
 główna i taka jest w wizytówce. Wersja z „www” przekierowuje, ale po co.
@@ -160,7 +168,7 @@ Nie wypełniamy za nikogo wniosków i nie składamy sprawozdań do NIW.
 |---|---|---|---|
 | 1 | SKWP: poprawa adresu strony na wersję bez „www” | 5 min | do zrobienia |
 | 2 | Oferteo: sprawdzenie profilu, usunięcie usług prawnych | 30 min | do zrobienia |
-| 3 | Bing Places: wpis z importem z Google | 20 min | do zrobienia |
+| 3 | Bing Places: wpis z importem z Google | 20 min | **zrobione, czeka na publikację** |
 | 4 | Apple Business Connect: wpis | 20 min | do zrobienia |
 | 5 | OpenStreetMap: punkt firmy | 15 min | do zrobienia |
 | 6 | Panorama Firm i pkt.pl | 30 min | do zrobienia |

@@ -104,7 +104,17 @@ nadpisane wersją z Google.
 
 | Krok | Stan |
 |---|---|
-| Konto Microsoft | do zrobienia |
-| Import z wizytówki Google | do zrobienia |
-| Publikacja wpisu (7–12 dni od importu) | czeka |
+| Konto Microsoft | zrobione |
+| Import z wizytówki Google | zrobione 13.10.2026, synchronizacja włączona |
+| Publikacja wpisu (7–12 dni od importu) | czeka, spodziewana do 25.10.2026 |
+| E-mail uzupełniony ręcznie | do sprawdzenia, czy pole jest edytowalne |
 | Zdjęcia dodane ręcznie | do zrobienia po publikacji |
+
+Co zaciągnęło się z Google: nazwa „Tax Polonica Biuro Rachunkowe”, adres
+Wyszyńskiego 56 lok. 5, telefon 789 643 335, strona `https://taxpolonica.pl/`,
+kategoria „Księgowy”. Pole e-mail zostało puste, bo wizytówka Google nie ma
+takiego pola.
+
+Większości pól nie da się tu edytować. Bing wyświetla to wprost: żeby je
+zmienić, poprawiamy dane w wizytówce Google i czekamy na synchronizację.
+To dobrze, bo oznacza, że mamy jedno miejsce, w którym pilnujemy danych.
