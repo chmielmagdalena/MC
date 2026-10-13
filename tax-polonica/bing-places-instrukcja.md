@@ -137,7 +137,7 @@ na ekranie dodawania strony, obok pola na adres. Metoda z plikiem
 | Krok | Stan |
 |---|---|
 | Domena taxpolonica.pl dodana i zweryfikowana | zrobione 13.10.2026 |
-| Sitemapa zgłoszona (`https://taxpolonica.pl/sitemap.xml`) | do zrobienia |
+| Sitemapa zgłoszona (`https://taxpolonica.pl/sitemap.xml`) | zrobione 13.10.2026, status „Sukces”, 30 adresów, zero błędów |
 | AI Performance: pierwsze dane | po 48 h od weryfikacji |
 
 Zakładka **AI Performance** pokazuje, jak strona wypada w odpowiedziach
