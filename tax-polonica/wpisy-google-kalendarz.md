@@ -25,10 +25,10 @@ na cztery kolejne poniedziałki. Raz w miesiącu, zamiast co tydzień.
 | 3 | Start działalności — policzymy każdą formę | 05.10.2026 |
 | 4 | Księgowość dla fundacji i stowarzyszeń | 12.10.2026 |
 | 5 | Sygnały, że czas zmienić biuro | 19.10.2026 |
-| 6 | Spółdzielnie mieszkaniowe | ☐ |
-| 7 | Obsługa w pełni online | ☐ |
-| 8 | Za co odpowiada biuro, a za co klient | ☐ |
-| 9 | Przejrzysta wycena | ☐ |
+| 6 | Spółdzielnie mieszkaniowe | 26.10.2026 |
+| 7 | Obsługa w pełni online | 02.11.2026 |
+| 8 | Za co odpowiada biuro, a za co klient | 09.11.2026 |
+| 9 | Przejrzysta wycena | 16.11.2026 |
 | 10 | Dokumenty, które musisz odebrać od poprzedniego biura | ☐ |
 
 ---
@@ -155,12 +155,12 @@ Tak pracujemy od 2010 roku.
 ```
 Ile kosztuje obsługa księgowa? Zależy od formy działalności, liczby dokumentów i liczby pracowników.
 
-Dlatego wycenę dostajesz na piśmie, zanim cokolwiek podpiszesz — bez dopłat „za pytanie".
+Na stronie jest kalkulator: podajesz cztery informacje i od razu widzisz orientacyjną kwotę. Bez zostawiania kontaktu.
 
-Pierwsza rozmowa i wycena są bezpłatne.
+Wycenę na piśmie dostajesz przed podpisaniem umowy. Pierwsza rozmowa i wycena są bezpłatne.
 ```
 **Zdjęcie:** biurko, kalkulator, dokumenty
-**Przycisk:** Dowiedz się więcej → `https://taxpolonica.pl/cennik`
+**Przycisk:** Dowiedz się więcej → `https://taxpolonica.pl/kalkulator-ceny-ksiegowosci`
 
 ---
 
