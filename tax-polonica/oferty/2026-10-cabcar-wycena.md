@@ -17,39 +17,54 @@ Oczekiwana odpowiedź w ciągu 2 dni roboczych.
 | Systemy klienta | CAB CAR Fleet, Motowarsztat |
 | Stan sprawozdania za 2025 | bilans i RZiS przygotowane, nie złożone do KRS |
 
-## Wycena według naszego cennika
+## Wycena — stawki potrojone wobec cennika
 
-Pełna księgowość z VAT 600 zł brutto, limit 5 dokumentów, każdy kolejny
-9 zł netto czyli 11,07 zł brutto. Kadry i płace 55 zł brutto za osobę.
+Decyzja właścicielki: cena ma być zaporowa. Powód jest merytoryczny, nie
+uznaniowy. W jednej spółce mieszczą się trzy różne działalności (przewozy
+osób, rozliczanie platform, warsztat z obsługą klientów zewnętrznych), trzy
+kasy fiskalne to trzy miejsca sprzedaży do osobnego uzgadniania, a kadry to
+50-60 umów zlecenia miesięcznie. Do tego spółka wchodzi we współpracę
+z zaległością: sprawozdanie za 2025 nie zostało złożone do KRS.
+
+Jeśli klient mimo wszystko przyjmie ofertę, marża pokrywa koszt doradcy
+podatkowego i biegłego rewidenta po naszej stronie.
+
+Stawki: pakiet 1 800 zł brutto, dokument ponad limit 27 zł netto czyli
+33,21 zł brutto, obsługa osoby 165 zł brutto, konsultacje 1 050 zł brutto
+za godzinę.
 
 | Faktury | Osoby | Księgowość | Kadry | Razem brutto | Razem netto |
 |---|---|---|---|---|---|
-| 100 | 51 | 1 651,65 | 2 805,00 | **4 456,65** | 3 623,29 |
-| 100 | 61 | 1 651,65 | 3 355,00 | **5 006,65** | 4 070,45 |
-| 200 | 51 | 2 758,65 | 2 805,00 | **5 563,65** | 4 523,29 |
-| 200 | 61 | 2 758,65 | 3 355,00 | **6 113,65** | 4 970,45 |
-| 300 | 51 | 3 865,65 | 2 805,00 | **6 670,65** | 5 423,29 |
-| 300 | 61 | 3 865,65 | 3 355,00 | **7 220,65** | 5 870,45 |
+| 100 | 51 | 4 954,95 | 8 415,00 | **13 369,95** | 10 869,88 |
+| 100 | 61 | 4 954,95 | 10 065,00 | **15 019,95** | 12 211,34 |
+| 200 | 51 | 8 275,95 | 8 415,00 | **16 690,95** | 13 569,88 |
+| 200 | 61 | 8 275,95 | 10 065,00 | **18 340,95** | 14 911,34 |
+| 300 | 51 | 11 596,95 | 8 415,00 | **20 011,95** | 16 269,88 |
+| 300 | 61 | 11 596,95 | 10 065,00 | **21 661,95** | 17 611,34 |
 
 Sprawozdanie finansowe raz w roku, w wysokości jednego miesięcznego
-wynagrodzenia za prowadzenie ksiąg: 1 651,65 zł brutto przy 100 fakturach,
-2 758,65 przy 200, 3 865,65 przy 300.
+wynagrodzenia za prowadzenie ksiąg: 4 954,95 zł brutto przy 100 fakturach,
+8 275,95 przy 200, 11 596,95 przy 300.
 
-## Do ustalenia przed wysłaniem
+## Pytania, bez których nie podajemy ceny wiążącej
 
-1. **Czy utrzymujemy stawkę za dokument przy tej skali.** Cennik z limitem
-   pięciu dokumentów powstał z myślą o małych klientach. Przy 100 fakturach
-   sama dopłata to 1 051,65 zł ponad pakiet. Alternatywą jest cena ryczałtowa
-   ustalona indywidualnie.
-2. **Pozycje spoza cennika**, których nie wyceniamy bez decyzji właścicielki:
-   przejęcie ksiąg i wdrożenie, rozliczanie trzech kas fiskalnych i platform
-   przewozowych, panel do bieżącego wglądu, OCR, obsługa KSeF, integracje
-   z CAB CAR Fleet i Motowarsztatem, bilans i RZiS na żądanie w trakcie roku,
-   limit operacji bankowych i stawka ponad limit.
-3. **Czasy reakcji wpisywane do umowy.** To główne kryterium klienta. Deklaracja
-   musi być możliwa do dotrzymania przy 50-60 umowach zlecenia miesięcznie.
-4. **Moce przerobowe.** Klient tej wielkości przy kryterium responsywności to
-   decyzja biznesowa, nie cenowa.
+1. Jakiego rodzaju są umowy zlecenia i ile osób faktycznie otrzymuje
+   wynagrodzenie w miesiącu, a ile pozostaje bez wypłaty.
+2. Czy poza niezłożonym sprawozdaniem za 2025 są inne zaległości: deklaracje,
+   rozliczenia ZUS, CIT, korekty.
+3. Co jest powodem zmiany biura.
+4. Kto wystawia faktury sprzedaży: spółka czy biuro.
+5. Ile jest środków trwałych, ile pojazdów i ile umów leasingu lub kredytów.
+6. Ile jest rachunków bankowych i ile operacji miesięcznie. Przy flocie
+   i rozliczeniach platform jeden rachunek jest nietypowy.
+7. Ile jest umów o pracę obecnie i ile planowanych przy uruchomieniu warsztatu
+   dla klientów zewnętrznych.
+8. Czy występują kontrahenci zagraniczni i transakcje wewnątrzwspólnotowe.
+   Przy platformach przewozowych to prawdopodobne i zmienia zakres pracy.
+9. Kto po stronie spółki obsługuje platformy, pobiera zestawienia i w jakim
+   formacie je przekazuje.
+10. Gdzie znajdują się trzy miejsca sprzedaży i czy każda kasa ma odrębne
+    raporty dobowe.
 
 ## Pomysł klienta: jedno sprawozdanie za lata 2025-2026
 
