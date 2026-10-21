@@ -46,6 +46,17 @@ Sprawozdanie finansowe raz w roku, w wysokości jednego miesięcznego
 wynagrodzenia za prowadzenie ksiąg: 4 954,95 zł brutto przy 100 fakturach,
 8 275,95 przy 200, 11 596,95 przy 300.
 
+## Forma podania ceny
+
+Kwoty podajemy jako **wycenę wstępną**, a cenę wiążącą dopiero po odpowiedziach
+na pytania poniżej. Powód jest praktyczny: cena ma odstraszyć, ale furtka
+zostaje otwarta, gdyby odpowiedzi pokazały, że zakres jest mniejszy, niż
+wynika z zapytania, albo gdyby klient mimo wszystko był gotów zapłacić.
+
+W odpowiedzi zostaje też akapit odradzający, czyli sugestia zatrudnienia
+księgowej i kadrowej na miejscu. Uzasadnia wysokość ceny i jest uczciwy wobec
+klienta tej wielkości.
+
 ## Pytania, bez których nie podajemy ceny wiążącej
 
 1. Jakiego rodzaju są umowy zlecenia i ile osób faktycznie otrzymuje
