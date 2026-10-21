@@ -1,5 +1,10 @@
 # CAB CAR sp. z o.o. — wycena i projekt odpowiedzi
 
+> **Decyzja: nie składamy oferty.** Wysłana została grzeczna odmowa
+> z rekomendacją zatrudnienia księgowej i kadrowej na miejscu. Wyliczenia
+> poniżej zostają jako materiał na przyszłość, gdyby wróciło podobne
+> zapytanie albo gdyby klient odezwał się z mniejszym zakresem.
+
 Zapytanie z 21.10.2026, Łukasz Jankowski, manager floty.
 Oczekiwana odpowiedź w ciągu 2 dni roboczych.
 
