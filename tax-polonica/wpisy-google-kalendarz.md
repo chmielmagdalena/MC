@@ -188,3 +188,55 @@ Przy przejęciu przechodzimy tę listę razem z Tobą.
 Po tych dziesięciu wpisach najlepszym źródłem tematów są pytania, które w danym miesiącu
 faktycznie zadali klienci. Jedno pytanie = jeden wpis. Działa lepiej niż wymyślanie tematów,
 bo skoro zapytał jeden, wpisują to w Google inni.
+
+---
+
+# Oferty w wizytówce Google
+
+To inny typ wpisu niż zwykłe posty powyżej. W panelu: **Wpisy → typ „Oferta"**.
+Wymaga tytułu i zakresu dat, opcjonalnie kodu kuponu i warunków.
+
+**Nie dajemy rabatów na księgowość.** Rabat przyciąga klientów szukających
+najtaniej, a potem trudno wrócić do normalnej ceny. Tego formatu używamy
+wyłącznie wtedy, gdy ofertą jest coś bezpłatnego, co i tak dajemy.
+
+Pole „kod kuponu" zostawiamy puste.
+
+**Uwaga o terminach:** oferta znika po dacie końcowej i zostawia puste miejsce
+w wizytówce. Dlatego ustawiamy termin do końca roku, a nie na miesiąc,
+i odnawiamy w grudniu.
+
+## Oferta 1 — bezpłatna wycena
+
+```
+Tytuł: Bezpłatna wycena księgowości
+```
+**Daty:** od dnia dodania do 31.12.2026
+```
+Policz orientacyjny koszt obsługi w kalkulatorze na naszej stronie: forma działalności, liczba dokumentów i pracowników. Bez zostawiania kontaktu.
+
+Wycenę na piśmie przygotujemy przed podpisaniem umowy. Pierwsza rozmowa jest bezpłatna.
+```
+**Warunki:** Wycena ma charakter orientacyjny i nie stanowi oferty w rozumieniu
+Kodeksu cywilnego.
+**Przycisk:** `https://taxpolonica.pl/kalkulator-ceny-ksiegowosci`
+
+## Oferta 2 — bezpłatny poradnik dla organizacji
+
+```
+Tytuł: Bezpłatny poradnik: rozliczanie dotacji w księgach
+```
+**Daty:** od dnia dodania do 31.12.2026
+```
+23 strony o tym, jak prowadzić ewidencję projektu, opisywać faktury na bieżąco i przygotować dane do rozliczenia dotacji. Dla fundacji i stowarzyszeń.
+
+Do pobrania po podaniu adresu e-mail.
+```
+**Przycisk:** `https://taxpolonica.pl/ksiegowosc-dla-fundacji`
+
+## Stan
+
+| Oferta | Dodana | Ważna do | Odnowiona |
+|---|---|---|---|
+| Bezpłatna wycena | ☐ | 31.12.2026 | ☐ |
+| Bezpłatny poradnik | ☐ | 31.12.2026 | ☐ |
