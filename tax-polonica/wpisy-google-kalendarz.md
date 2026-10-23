@@ -238,5 +238,8 @@ Do pobrania po podaniu adresu e-mail.
 
 | Oferta | Dodana | Ważna do | Odnowiona |
 |---|---|---|---|
-| Bezpłatna wycena | ☐ | 31.12.2026 | ☐ |
-| Bezpłatny poradnik | ☐ | 31.12.2026 | ☐ |
+| Bezpłatna wycena | 23.10.2026 | 31.12.2026 | ☐ |
+| Bezpłatny poradnik | 23.10.2026 | 31.12.2026 | ☐ |
+
+Grafiki do obu ofert leżą w `tax-polonica/grafiki/`:
+`oferta-kalkulator-1200x900.jpg` oraz `oferta-poradnik-1200x900.jpg`.
