@@ -1,11 +1,25 @@
 # CAB CAR sp. z o.o. — druga odpowiedź, w układzie jak do Fundacji
 
 Wraca do zapytania z 21.10.2026 (Łukasz Jankowski, manager floty).
-Poprzednio wysłana została grzeczna odmowa i wycena zaporowa. Ta wersja jest
-ofertą normalną, liczoną z cennika, w układzie i tonie odpowiedzi do Fundacji
-Chętnie Pomogę.
+Poprzednio wysłana została grzeczna odmowa i wycena zaporowa. Ta wersja robi
+dwie rzeczy naraz: **składa normalną ofertę liczoną z cennika** i jednocześnie
+**rekomenduje im zatrudnienie księgowej na etacie**, bo spółka jest na to
+wystarczająco duża. Układ i ton jak w odpowiedzi do Fundacji Chętnie Pomogę.
 
 **Status: projekt, nie wysłano.**
+
+## Dlaczego rekomendacja etatu nie jest argumentem cenowym
+
+To ważne, żeby nie pomylić argumentów w rozmowie telefonicznej. Etat jest
+**droższy**, nie tańszy: samodzielna księgowa pełnej księgowości to
+orientacyjnie 9 000 do 12 000 zł brutto, czyli 10 800 do 14 500 zł kosztu
+pracodawcy miesięcznie, przy naszych 4 111 zł netto (VAT odliczalny, więc to
+realny koszt). Nasza obsługa jest około trzy razy tańsza i mówimy to wprost.
+
+Argumentem za etatem jest **dostępność i to, gdzie powstają dokumenty**: trzy
+miejsca sprzedaży, warsztat z częściami, 50 do 60 umów zlecenia przy rotacji
+kierowców i dwa własne systemy. Tego nie kupuje się na zewnątrz, bo to praca
+codzienna, nie miesięczna. Responsywność postawili na pierwszym miejscu sami.
 
 ## Dlaczego teraz cena z cennika, a nie potrojona
 
@@ -78,6 +92,45 @@ Przyjmujemy nowego klienta od 1 stycznia 2027. Start w grudniu 2026 też jest
 możliwy, ale czysty start od stycznia jest bezpieczniejszy, bo wtedy rok 2026
 zamyka dotychczasowe biuro i nie dzielimy odpowiedzialności za jeden rok
 obrotowy między dwa biura.
+
+ZACZNĘ OD CZEGOŚ, O CO PAŃSTWO NIE PYTALI
+
+Przy Państwa skali rekomendowałabym własną księgową na etacie, a biuro
+rachunkowe jako uzupełnienie, nie jako całość obsługi. Mówię to, zanim podam
+cenę, i mówię to przeciwko własnej ofercie, bo wolę powiedzieć to teraz niż
+w szóstym miesiącu współpracy.
+
+Powód nie jest cenowy. Cena wypada na naszą korzyść i podaję to otwarcie:
+samodzielna księgowa pełnej księgowości to dziś orientacyjnie 9 000 do
+12 000 zł brutto, czyli po stronie pracodawcy około 10 800 do 14 500 zł
+miesięcznie, a nasza obsługa to 4 111 zł netto przy Państwa obecnej skali,
+przy odliczalnym VAT. Jesteśmy około trzy razy tańsi. Mimo tego rekomenduję
+etat.
+
+Powód jest w tym, gdzie powstają dokumenty i czego Państwo oczekują. Postawili
+Państwo responsywność na pierwszym miejscu, przed ceną. Osoba na miejscu
+odpowiada natychmiast, bo siedzi obok. Biuro, nawet dobre, odpowiada
+w zadeklarowanym terminie, a nie w tej samej minucie, i żadna umowa tego nie
+zmieni. Do tego dochodzi codzienność: trzy kasy fiskalne w trzech miejscach
+sprzedaży, warsztat z magazynem części, który rusza z obsługą klientów
+zewnętrznych, 50 do 60 umów zlecenia przy rotacji kierowców, gdzie zgłoszenie
+do ZUS dzieje się w dniu, w którym kierowca przychodzi, oraz dwa własne
+systemy, CAB CAR Fleet i Motowarsztat, w których ktoś musi pracować na
+bieżąco. To praca codzienna, a biuro zewnętrzne pracuje w rytmie miesięcznym.
+
+Firmy Państwa wielkości i o Państwa złożoności zwykle mają własną księgową,
+a biuro rachunkowe od ksiąg, deklaracji, sprawozdania i nadzoru. Taki podział
+daje Państwu i szybkość, i drugie spojrzenie na księgi.
+
+Jeśli zdecydują się Państwo na własną osobę, chętnie pomogę przy ustawieniu
+obiegu dokumentów i planu kont oraz przy ocenie kandydatów od strony
+merytorycznej. To praca konsultacyjna, 350 zł brutto za godzinę, i nie wiąże
+Państwa niczym dalej.
+
+A teraz odpowiedzi na Państwa pytania i oferta, bo decyzja należy do Państwa,
+a nie do mnie. Jeśli po przeczytaniu rekomendacji wybiorą Państwo biuro, to
+obsługę prowadzimy w pełnym zakresie, który Państwo opisali, na warunkach
+poniżej.
 
 KONTAKT I ORGANIZACJA OBSŁUGI
 
@@ -324,6 +377,11 @@ kilka pytań:
 Jeśli zakres okaże się mniejszy, niż wynika z zapytania, cena będzie niższa,
 nie wyższa. Nie podnoszę ceny po podpisaniu umowy z powodu danych, o które
 nie zapytałam.
+
+Na koniec wracam do rekomendacji z początku. Jeśli zdecydują się Państwo na
+własną księgową, to będzie dobra decyzja i nie trzeba mi tego tłumaczyć.
+Jeśli zdecydują się Państwo na biuro, oferta powyżej jest wiążąca w zakresie
+zasad i terminów, a cena wiążąca po odpowiedziach na siedem pytań.
 
 Chętnie porozmawiam telefonicznie albo spotkam się z Państwem w biurze.
 Termin spotkania można umówić przez Kalendarz na naszej stronie.
