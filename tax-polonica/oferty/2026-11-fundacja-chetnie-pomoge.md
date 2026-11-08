@@ -1,7 +1,8 @@
-# Fundacja Chętnie Pomogę — wycena i wysłana odpowiedź
+# Fundacja Chętnie Pomogę — wycena i odpowiedź
 
 Zapytanie z 8 listopada 2026, Wojciech Pietkiewicz, prezes zarządu.
-Odpowiedź wysłana tego samego dnia. **Oferta złożona.**
+Odpowiedź przygotowana tego samego dnia. **Na 8 listopada 2026 nie była
+jeszcze wysłana** — czeka na poprawienie zdania o sprawozdaniu (patrz niżej).
 
 ## Dane z zapytania
 
@@ -50,8 +51,32 @@ zawiadomienie naczelnika urzędu skarbowego do końca trzeciego miesiąca roku
 podatkowego, czyli do 31 marca 2027. **Uwaga:** starsze artykuły w internecie
 podają koniec stycznia; to brzmienie sprzed nowelizacji.
 
-Przy UEPiK nie sporządza się sprawozdania finansowego. Pozostaje CIT-8
-z załącznikiem oraz sprawozdanie z działalności dla organu nadzoru.
+## Sprawozdawczość przy uproszczonej ewidencji
+
+Zostaje i robimy my: **CIT-8 z załącznikiem CIT-8/O**, do 31 marca za rok
+poprzedni, niezależnie od wysokości przychodów i niezależnie od zwolnienia
+dochodu przeznaczonego na cele statutowe.
+
+Zostaje, ale jest obowiązkiem zarządu: **sprawozdanie z działalności fundacji**
+dla ministra nadzorującego. My przygotowujemy część finansową, zarząd podpisuje
+i składa.
+
+Znika całkowicie: **sprawozdanie finansowe**, czyli bilans i rachunek zysków
+i strat. Organizacja na uproszczonej ewidencji jest wyłączona spod ustawy
+o rachunkowości, więc nie sporządza go wcale. Nie idzie ani do urzędu
+skarbowego, ani do KRS, i nie ma procedury zatwierdzania.
+
+Nie dotyczy tej Fundacji: sprawozdanie do NIW do 15 lipca — to obowiązek
+organizacji pożytku publicznego, a Fundacja statusu OPP nie ma.
+
+Nie wysyła się nigdzie, ale trzeba mieć: samą ewidencję, czyli zestawienie
+przychodów i kosztów oraz zestawienie uzupełniające (dodane rozporządzeniem
+od 2026 roku). Dokumenty wewnętrzne, okazywane przy kontroli. Prowadzimy je my.
+
+**Terminu sprawozdania z działalności nie podajemy klientowi.** Źródła podają
+różne daty i zależy to od ministra nadzorującego. W odpowiedzi piszemy, że
+termin wynika z przepisów o fundacjach i wskazówek ministra, a my przypomnimy
+w odpowiednim momencie.
 
 Zakres utrzymany: podaliśmy warunki, ale potwierdzenie skierowaliśmy do
 doradcy podatkowego lub prawnika. Nie wydajemy interpretacji przepisów.

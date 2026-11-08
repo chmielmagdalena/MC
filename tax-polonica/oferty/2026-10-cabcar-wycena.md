@@ -1,6 +1,10 @@
 # CAB CAR sp. z o.o. — wycena i projekt odpowiedzi
 
-> **Decyzja: nie składamy oferty.** Wysłana została grzeczna odmowa
+> **Aktualizacja 8.11.2026:** powstała druga, normalna wersja odpowiedzi,
+> liczona z cennika — zobacz `2026-11-cabcar-odpowiedz.md`. Poniższa decyzja
+> i wyliczenia zaporowe są materiałem historycznym.
+>
+> **Decyzja z października: nie składamy oferty.** Wysłana została grzeczna odmowa
 > z rekomendacją zatrudnienia księgowej i kadrowej na miejscu. Wyliczenia
 > poniżej zostają jako materiał na przyszłość, gdyby wróciło podobne
 > zapytanie albo gdyby klient odezwał się z mniejszym zakresem.
