@@ -32,6 +32,8 @@ jednorazowa opłata roczna za pakiet płatny i wtedy limitu nie ma.
 Faktury z KSeF pobierają i zatwierdzają Państwo samodzielnie w programie,
 tak jak opisuje to umowa. Pomogę ustawić program i przeszkolę Państwa
 z jego obsługi, więc przy kilku fakturach w miesiącu zajmie to chwilę.
+Zyskują Państwo przy tym dostęp do wszystkich swoich faktur w jednym
+miejscu, co ułatwia pilnowanie płatności.
 
 Dla Fundacji przygotuję wersję umowy dostosowaną do uproszczonej ewidencji
 przychodów i kosztów i prześlę ją osobno.
