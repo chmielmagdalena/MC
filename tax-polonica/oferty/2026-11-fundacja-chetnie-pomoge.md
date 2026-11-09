@@ -47,9 +47,19 @@ poniżej 1 000 000 zł (limit podniesiony dziesięciokrotnie od 2025 roku).
 O decyzji na 2027 przesądzają przychody za 2026.
 
 Dwa kroki po stronie Fundacji: uchwała organu zatwierdzającego oraz
-zawiadomienie naczelnika urzędu skarbowego do końca trzeciego miesiąca roku
-podatkowego, czyli do 31 marca 2027. **Uwaga:** starsze artykuły w internecie
-podają koniec stycznia; to brzmienie sprzed nowelizacji.
+zawiadomienie naczelnika urzędu skarbowego.
+
+**Poprawka z 9.11.2026 — poprzednia notatka była postawiona na głowie.**
+W obiegu są dwa brzmienia terminu: koniec pierwszego miesiąca roku
+podatkowego (31 stycznia) występuje w tekście ujednoliconym Dz.U. 2025
+poz. 1338 ze stanem na październik 2025, a koniec trzeciego miesiąca
+(31 marca) w opracowaniach opisujących stan od 2026 roku. Nie da się więc
+odłożyć stycznia jako brzmienia nieaktualnego.
+
+Rozwiązanie przyjęte w korespondencji: **podajemy klientowi 31 stycznia**,
+bo złożenie w styczniu jest bezpieczne pod każdą wersją przepisu, a czekanie
+do marca tylko pod jedną. Nie rozstrzygamy, które brzmienie obowiązuje.
+Szczegóły w `2026-11-fundacja-chetnie-pomoge-odpowiedz-2.md`.
 
 ## Sprawozdawczość przy uproszczonej ewidencji
 
